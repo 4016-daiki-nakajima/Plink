@@ -1,0 +1,18 @@
+{
+    "name": "bunny",
+    "obj_path": "asset/bunny/bunny.obj",
+    "material": {
+        "name": "plastic",
+        "density": 1200.0,
+        "youngs_modulus": 2500000000.0,
+        "poisson_ratio": 0.3700000047683716,
+        "Rayleigh_damping": {
+            "alpha": 30,
+            "beta": 9.999999974752427e-07
+        }
+    },
+    "Modal": {
+        "num_modes": 25,
+        "max_freq": 15000
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "sphere",
+    "obj_path": "asset/sphere/sphere.obj",
+    "material": {
+        "name": "glass",
+        "density": 2700.0,
+        "youngs_modulus": 62000001024.0,
+        "poisson_ratio": 0.20000000298023224,
+        "Rayleigh_damping": {
+            "alpha": 1,
+            "beta": 1
+        }
+    },
+    "Modal": {
+        "num_modes": 25,
+        "max_freq": 15000
+    }
+}

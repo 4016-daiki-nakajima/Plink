@@ -1,0 +1,19 @@
+{
+    "name": "Beam",
+    "obj_path": "asset/beam/beam.obj",
+    "material": {
+        "name": "steel",
+        "density": 8940.0,
+        "youngs_modulus": 123400003584.0,
+        "poisson_ratio": 0.3400000035762787,
+        "Rayleigh_damping": {
+            "alpha": 6.0,
+            "beta": 1.0000000116860974e-07
+        },
+        "h": 0.008403361774981022
+    },
+    "Modal": {
+        "num_modes": 25,
+        "max_freq": 15000
+    }
+}

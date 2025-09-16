@@ -1,0 +1,18 @@
+{
+    "name": "bowl",
+    "obj_path": "asset/bowl/00002.tet.obj",
+    "material": {
+        "name": "wood",
+        "density": 750.0,
+        "youngs_modulus": 11E9,
+        "poisson_ratio": 0.25,
+        "Rayleigh_damping": {
+            "alpha": 60.0,
+            "beta": 2E-6
+        }
+    },
+    "Modal":{
+        "num_modes": 78,
+        "max_freq": 15000.0
+    }
+}

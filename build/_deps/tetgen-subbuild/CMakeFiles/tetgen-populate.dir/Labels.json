@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/CMakeFiles/tetgen-populate"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/CMakeFiles/tetgen-populate.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/CMakeFiles/tetgen-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-build.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-download.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-install.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-test.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/tetgen-populate-prefix/src/tetgen-populate-stamp/tetgen-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tetgen-populate"
+		],
+		"name" : "tetgen-populate"
+	}
+}

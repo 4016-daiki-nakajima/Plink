@@ -1,0 +1,14 @@
+{
+    "name": "simpleTet",
+    "obj_path": "asset/simpleTet/tetrahedron.obj",
+    "material": {
+        "name": "rubber",
+        "density": 1.0,
+        "youngs_modulus": 1.0,
+        "poisson_ratio": 0.45,
+        "Rayleigh_damping": {
+            "alpha": 6.0,
+            "beta": 1E-7
+        }
+    }
+}

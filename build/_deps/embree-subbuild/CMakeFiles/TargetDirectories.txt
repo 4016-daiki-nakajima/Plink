@@ -1,0 +1,3 @@
+/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles/embree-populate.dir
+/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles/edit_cache.dir
+/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles/rebuild_cache.dir

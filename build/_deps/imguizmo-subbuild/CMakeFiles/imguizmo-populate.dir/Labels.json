@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-test.rule"
+		},
+		{
+			"file" : "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imguizmo-populate"
+		],
+		"name" : "imguizmo-populate"
+	}
+}

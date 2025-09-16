@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Audio/AudioManager.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Audio/AudioManager.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/BEM.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/BEM.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/Cache.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/Cache.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/EigenSolver.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/EigenSolver.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/FEM.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/FEM.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/IO.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/IO.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/TetMesh.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/TetMesh.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Modal/forces.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Modal/forces.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Modal/modalIntegratorIIR.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Modal/modalIntegratorIIR.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/EquivalentSources.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/EquivalentSources.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Power.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Power.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Sampling.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Sampling.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/SphericalHarmonics.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/SphericalHarmonics.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Utils/colormap.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Utils/colormap.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Utils/utils.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/src/Utils/utils.cpp.o.d"
+  "CMakeFiles/test_realtime_modal_sound.dir/test/modal/test_realtime_modal_sound.cpp.o"
+  "CMakeFiles/test_realtime_modal_sound.dir/test/modal/test_realtime_modal_sound.cpp.o.d"
+  "test_realtime_modal_sound"
+  "test_realtime_modal_sound.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test_realtime_modal_sound.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

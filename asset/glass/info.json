@@ -1,0 +1,18 @@
+{
+    "name": "glass",
+    "obj_path": "asset/glass/00000.tet.obj",
+    "material": {
+        "name": "glass",
+        "density": 2600.0,
+        "youngs_modulus": 6.2E10,
+        "poisson_ratio": 0.2,
+        "Rayleigh_damping": {
+            "alpha": 1.0,
+            "beta": 1E-7
+        }
+    },
+    "Modal":{
+        "num_modes": 22,
+        "max_freq": 15000.0
+    }
+}
