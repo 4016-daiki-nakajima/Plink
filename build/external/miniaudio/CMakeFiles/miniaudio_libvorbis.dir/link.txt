@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libminiaudio_libvorbis.a CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libminiaudio_libvorbis.a

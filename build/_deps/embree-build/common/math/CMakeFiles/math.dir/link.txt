@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../libmath.a CMakeFiles/math.dir/constants.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../libmath.a
