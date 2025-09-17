@@ -1,8 +1,8 @@
 _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/init.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/internal.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-build/src/glfw_config.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/init.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/internal.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-build/src/glfw_config.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/../include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -33,7 +33,7 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/cocoa_platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/cocoa_platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
@@ -800,12 +800,12 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecCertificateSupport.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/Help.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/AppleHelp.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/posix_thread.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/posix_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/qos.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/cocoa_joystick.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/cocoa_joystick.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOCFPlugIn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDLib.h \
@@ -825,8 +825,8 @@ _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDUsageTables.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDValue.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework/Headers/hid/IOHIDTransaction.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/nsgl_context.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/nsgl_context.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdatomic.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/egl_context.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/osmesa_context.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/src/mappings.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/egl_context.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/osmesa_context.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/src/mappings.h

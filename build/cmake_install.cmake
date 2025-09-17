@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/libigl/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-build/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glad-build/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/spectra/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/external/libigl/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-build/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glad-build/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/external/spectra/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/daiki/Documents/Stanford/Research/Plink/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Utility rule file for build.
 
@@ -67,8 +67,8 @@ include _deps/embree-build/CMakeFiles/build.dir/compiler_depend.make
 include _deps/embree-build/CMakeFiles/build.dir/progress.make
 
 _deps/embree-build/CMakeFiles/build:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake --build . --config Release --target package -j8
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -DPACKAGE_BASENAME=embree-4.4.0.arm64.macosx -DPACKAGE_EXT=zip -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/scripts/package_build.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake --build . --config Release --target package -j8
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -DPACKAGE_BASENAME=embree-4.4.0.arm64.macosx -DPACKAGE_EXT=zip -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/scripts/package_build.cmake
 
 build: _deps/embree-build/CMakeFiles/build
 build: _deps/embree-build/CMakeFiles/build.dir/build.make
@@ -79,10 +79,10 @@ _deps/embree-build/CMakeFiles/build.dir/build: build
 .PHONY : _deps/embree-build/CMakeFiles/build.dir/build
 
 _deps/embree-build/CMakeFiles/build.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/build.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/build.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/CMakeFiles/build.dir/clean
 
 _deps/embree-build/CMakeFiles/build.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/CMakeFiles/build.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/CMakeFiles/build.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/CMakeFiles/build.dir/depend
 

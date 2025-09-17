@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/libsys.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/libsys.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsys.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsys.a")
     execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsys.a")
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0/sys-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0/sys-targets.cmake"
-         "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets.cmake")
+         "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0/sys-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -62,9 +62,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/sys/CMakeFiles/Export/bcb401d0aa29ca560a1d675a6e229d39/sys-targets-release.cmake")
   endif()
 endif()
 

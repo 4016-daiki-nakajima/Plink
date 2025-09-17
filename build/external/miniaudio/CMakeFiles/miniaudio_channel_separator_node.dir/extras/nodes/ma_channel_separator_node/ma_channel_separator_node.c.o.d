@@ -1,7 +1,7 @@
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/../../../miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/../../../miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \

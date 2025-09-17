@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Utility rule file for post_package_notarize.
 
@@ -67,7 +67,7 @@ include _deps/embree-build/CMakeFiles/post_package_notarize.dir/compiler_depend.
 include _deps/embree-build/CMakeFiles/post_package_notarize.dir/progress.make
 
 _deps/embree-build/CMakeFiles/post_package_notarize:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && ../embree-src/scripts/package_post_build_notarize_macosx.sh embree-4.4.0.arm64.macosx
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && ../embree-src/scripts/package_post_build_notarize_macosx.sh embree-4.4.0.arm64.macosx
 
 post_package_notarize: _deps/embree-build/CMakeFiles/post_package_notarize
 post_package_notarize: _deps/embree-build/CMakeFiles/post_package_notarize.dir/build.make
@@ -78,10 +78,10 @@ _deps/embree-build/CMakeFiles/post_package_notarize.dir/build: post_package_nota
 .PHONY : _deps/embree-build/CMakeFiles/post_package_notarize.dir/build
 
 _deps/embree-build/CMakeFiles/post_package_notarize.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/post_package_notarize.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/post_package_notarize.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/CMakeFiles/post_package_notarize.dir/clean
 
 _deps/embree-build/CMakeFiles/post_package_notarize.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/CMakeFiles/post_package_notarize.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/CMakeFiles/post_package_notarize.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/CMakeFiles/post_package_notarize.dir/depend
 

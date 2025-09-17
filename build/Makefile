@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	/opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,9 +152,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -286,17 +286,17 @@ igl_copyleft_core/fast:
 .PHONY : igl_copyleft_core/fast
 
 #=============================================================================
-# Target rules for targets named test_realtime_modal_sound
+# Target rules for targets named Plink
 
 # Build rule for target.
-test_realtime_modal_sound: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_realtime_modal_sound
-.PHONY : test_realtime_modal_sound
+Plink: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Plink
+.PHONY : Plink
 
 # fast build rule for target.
-test_realtime_modal_sound/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/build
-.PHONY : test_realtime_modal_sound/fast
+Plink/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/build
+.PHONY : Plink/fast
 
 #=============================================================================
 # Target rules for targets named igl_core
@@ -800,12 +800,60 @@ _deps/imguizmo-src/ImGuizmo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imguizmo.dir/build.make CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.s
 .PHONY : _deps/imguizmo-src/ImGuizmo.cpp.s
 
+external/glad/glad.o: external/glad/glad.c.o
+.PHONY : external/glad/glad.o
+
+# target to build an object file
+external/glad/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/external/glad/glad.c.o
+.PHONY : external/glad/glad.c.o
+
+external/glad/glad.i: external/glad/glad.c.i
+.PHONY : external/glad/glad.i
+
+# target to preprocess a source file
+external/glad/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/external/glad/glad.c.i
+.PHONY : external/glad/glad.c.i
+
+external/glad/glad.s: external/glad/glad.c.s
+.PHONY : external/glad/glad.s
+
+# target to generate assembly for a file
+external/glad/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/external/glad/glad.c.s
+.PHONY : external/glad/glad.c.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 src/Audio/AudioManager.o: src/Audio/AudioManager.cpp.o
 .PHONY : src/Audio/AudioManager.o
 
 # target to build an object file
 src/Audio/AudioManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Audio/AudioManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Audio/AudioManager.cpp.o
 .PHONY : src/Audio/AudioManager.cpp.o
 
 src/Audio/AudioManager.i: src/Audio/AudioManager.cpp.i
@@ -813,7 +861,7 @@ src/Audio/AudioManager.i: src/Audio/AudioManager.cpp.i
 
 # target to preprocess a source file
 src/Audio/AudioManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Audio/AudioManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Audio/AudioManager.cpp.i
 .PHONY : src/Audio/AudioManager.cpp.i
 
 src/Audio/AudioManager.s: src/Audio/AudioManager.cpp.s
@@ -821,7 +869,7 @@ src/Audio/AudioManager.s: src/Audio/AudioManager.cpp.s
 
 # target to generate assembly for a file
 src/Audio/AudioManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Audio/AudioManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Audio/AudioManager.cpp.s
 .PHONY : src/Audio/AudioManager.cpp.s
 
 src/Geometry/BEM.o: src/Geometry/BEM.cpp.o
@@ -829,7 +877,7 @@ src/Geometry/BEM.o: src/Geometry/BEM.cpp.o
 
 # target to build an object file
 src/Geometry/BEM.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/BEM.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/BEM.cpp.o
 .PHONY : src/Geometry/BEM.cpp.o
 
 src/Geometry/BEM.i: src/Geometry/BEM.cpp.i
@@ -837,7 +885,7 @@ src/Geometry/BEM.i: src/Geometry/BEM.cpp.i
 
 # target to preprocess a source file
 src/Geometry/BEM.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/BEM.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/BEM.cpp.i
 .PHONY : src/Geometry/BEM.cpp.i
 
 src/Geometry/BEM.s: src/Geometry/BEM.cpp.s
@@ -845,7 +893,7 @@ src/Geometry/BEM.s: src/Geometry/BEM.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/BEM.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/BEM.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/BEM.cpp.s
 .PHONY : src/Geometry/BEM.cpp.s
 
 src/Geometry/Cache.o: src/Geometry/Cache.cpp.o
@@ -853,7 +901,7 @@ src/Geometry/Cache.o: src/Geometry/Cache.cpp.o
 
 # target to build an object file
 src/Geometry/Cache.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/Cache.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/Cache.cpp.o
 .PHONY : src/Geometry/Cache.cpp.o
 
 src/Geometry/Cache.i: src/Geometry/Cache.cpp.i
@@ -861,7 +909,7 @@ src/Geometry/Cache.i: src/Geometry/Cache.cpp.i
 
 # target to preprocess a source file
 src/Geometry/Cache.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/Cache.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/Cache.cpp.i
 .PHONY : src/Geometry/Cache.cpp.i
 
 src/Geometry/Cache.s: src/Geometry/Cache.cpp.s
@@ -869,7 +917,7 @@ src/Geometry/Cache.s: src/Geometry/Cache.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/Cache.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/Cache.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/Cache.cpp.s
 .PHONY : src/Geometry/Cache.cpp.s
 
 src/Geometry/EigenSolver.o: src/Geometry/EigenSolver.cpp.o
@@ -877,7 +925,7 @@ src/Geometry/EigenSolver.o: src/Geometry/EigenSolver.cpp.o
 
 # target to build an object file
 src/Geometry/EigenSolver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/EigenSolver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/EigenSolver.cpp.o
 .PHONY : src/Geometry/EigenSolver.cpp.o
 
 src/Geometry/EigenSolver.i: src/Geometry/EigenSolver.cpp.i
@@ -885,7 +933,7 @@ src/Geometry/EigenSolver.i: src/Geometry/EigenSolver.cpp.i
 
 # target to preprocess a source file
 src/Geometry/EigenSolver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/EigenSolver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/EigenSolver.cpp.i
 .PHONY : src/Geometry/EigenSolver.cpp.i
 
 src/Geometry/EigenSolver.s: src/Geometry/EigenSolver.cpp.s
@@ -893,7 +941,7 @@ src/Geometry/EigenSolver.s: src/Geometry/EigenSolver.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/EigenSolver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/EigenSolver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/EigenSolver.cpp.s
 .PHONY : src/Geometry/EigenSolver.cpp.s
 
 src/Geometry/FEM.o: src/Geometry/FEM.cpp.o
@@ -901,7 +949,7 @@ src/Geometry/FEM.o: src/Geometry/FEM.cpp.o
 
 # target to build an object file
 src/Geometry/FEM.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/FEM.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/FEM.cpp.o
 .PHONY : src/Geometry/FEM.cpp.o
 
 src/Geometry/FEM.i: src/Geometry/FEM.cpp.i
@@ -909,7 +957,7 @@ src/Geometry/FEM.i: src/Geometry/FEM.cpp.i
 
 # target to preprocess a source file
 src/Geometry/FEM.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/FEM.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/FEM.cpp.i
 .PHONY : src/Geometry/FEM.cpp.i
 
 src/Geometry/FEM.s: src/Geometry/FEM.cpp.s
@@ -917,7 +965,7 @@ src/Geometry/FEM.s: src/Geometry/FEM.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/FEM.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/FEM.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/FEM.cpp.s
 .PHONY : src/Geometry/FEM.cpp.s
 
 src/Geometry/IO.o: src/Geometry/IO.cpp.o
@@ -925,7 +973,7 @@ src/Geometry/IO.o: src/Geometry/IO.cpp.o
 
 # target to build an object file
 src/Geometry/IO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/IO.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/IO.cpp.o
 .PHONY : src/Geometry/IO.cpp.o
 
 src/Geometry/IO.i: src/Geometry/IO.cpp.i
@@ -933,7 +981,7 @@ src/Geometry/IO.i: src/Geometry/IO.cpp.i
 
 # target to preprocess a source file
 src/Geometry/IO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/IO.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/IO.cpp.i
 .PHONY : src/Geometry/IO.cpp.i
 
 src/Geometry/IO.s: src/Geometry/IO.cpp.s
@@ -941,7 +989,7 @@ src/Geometry/IO.s: src/Geometry/IO.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/IO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/IO.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/IO.cpp.s
 .PHONY : src/Geometry/IO.cpp.s
 
 src/Geometry/TetMesh.o: src/Geometry/TetMesh.cpp.o
@@ -949,7 +997,7 @@ src/Geometry/TetMesh.o: src/Geometry/TetMesh.cpp.o
 
 # target to build an object file
 src/Geometry/TetMesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/TetMesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/TetMesh.cpp.o
 .PHONY : src/Geometry/TetMesh.cpp.o
 
 src/Geometry/TetMesh.i: src/Geometry/TetMesh.cpp.i
@@ -957,7 +1005,7 @@ src/Geometry/TetMesh.i: src/Geometry/TetMesh.cpp.i
 
 # target to preprocess a source file
 src/Geometry/TetMesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/TetMesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/TetMesh.cpp.i
 .PHONY : src/Geometry/TetMesh.cpp.i
 
 src/Geometry/TetMesh.s: src/Geometry/TetMesh.cpp.s
@@ -965,7 +1013,7 @@ src/Geometry/TetMesh.s: src/Geometry/TetMesh.cpp.s
 
 # target to generate assembly for a file
 src/Geometry/TetMesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Geometry/TetMesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Geometry/TetMesh.cpp.s
 .PHONY : src/Geometry/TetMesh.cpp.s
 
 src/Modal/forces.o: src/Modal/forces.cpp.o
@@ -973,7 +1021,7 @@ src/Modal/forces.o: src/Modal/forces.cpp.o
 
 # target to build an object file
 src/Modal/forces.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/forces.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/forces.cpp.o
 .PHONY : src/Modal/forces.cpp.o
 
 src/Modal/forces.i: src/Modal/forces.cpp.i
@@ -981,7 +1029,7 @@ src/Modal/forces.i: src/Modal/forces.cpp.i
 
 # target to preprocess a source file
 src/Modal/forces.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/forces.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/forces.cpp.i
 .PHONY : src/Modal/forces.cpp.i
 
 src/Modal/forces.s: src/Modal/forces.cpp.s
@@ -989,7 +1037,7 @@ src/Modal/forces.s: src/Modal/forces.cpp.s
 
 # target to generate assembly for a file
 src/Modal/forces.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/forces.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/forces.cpp.s
 .PHONY : src/Modal/forces.cpp.s
 
 src/Modal/modalIntegratorIIR.o: src/Modal/modalIntegratorIIR.cpp.o
@@ -997,7 +1045,7 @@ src/Modal/modalIntegratorIIR.o: src/Modal/modalIntegratorIIR.cpp.o
 
 # target to build an object file
 src/Modal/modalIntegratorIIR.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/modalIntegratorIIR.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/modalIntegratorIIR.cpp.o
 .PHONY : src/Modal/modalIntegratorIIR.cpp.o
 
 src/Modal/modalIntegratorIIR.i: src/Modal/modalIntegratorIIR.cpp.i
@@ -1005,7 +1053,7 @@ src/Modal/modalIntegratorIIR.i: src/Modal/modalIntegratorIIR.cpp.i
 
 # target to preprocess a source file
 src/Modal/modalIntegratorIIR.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/modalIntegratorIIR.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/modalIntegratorIIR.cpp.i
 .PHONY : src/Modal/modalIntegratorIIR.cpp.i
 
 src/Modal/modalIntegratorIIR.s: src/Modal/modalIntegratorIIR.cpp.s
@@ -1013,7 +1061,7 @@ src/Modal/modalIntegratorIIR.s: src/Modal/modalIntegratorIIR.cpp.s
 
 # target to generate assembly for a file
 src/Modal/modalIntegratorIIR.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Modal/modalIntegratorIIR.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Modal/modalIntegratorIIR.cpp.s
 .PHONY : src/Modal/modalIntegratorIIR.cpp.s
 
 src/Transfer/EquivalentSources.o: src/Transfer/EquivalentSources.cpp.o
@@ -1021,7 +1069,7 @@ src/Transfer/EquivalentSources.o: src/Transfer/EquivalentSources.cpp.o
 
 # target to build an object file
 src/Transfer/EquivalentSources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/EquivalentSources.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/EquivalentSources.cpp.o
 .PHONY : src/Transfer/EquivalentSources.cpp.o
 
 src/Transfer/EquivalentSources.i: src/Transfer/EquivalentSources.cpp.i
@@ -1029,7 +1077,7 @@ src/Transfer/EquivalentSources.i: src/Transfer/EquivalentSources.cpp.i
 
 # target to preprocess a source file
 src/Transfer/EquivalentSources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/EquivalentSources.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/EquivalentSources.cpp.i
 .PHONY : src/Transfer/EquivalentSources.cpp.i
 
 src/Transfer/EquivalentSources.s: src/Transfer/EquivalentSources.cpp.s
@@ -1037,7 +1085,7 @@ src/Transfer/EquivalentSources.s: src/Transfer/EquivalentSources.cpp.s
 
 # target to generate assembly for a file
 src/Transfer/EquivalentSources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/EquivalentSources.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/EquivalentSources.cpp.s
 .PHONY : src/Transfer/EquivalentSources.cpp.s
 
 src/Transfer/Power.o: src/Transfer/Power.cpp.o
@@ -1045,7 +1093,7 @@ src/Transfer/Power.o: src/Transfer/Power.cpp.o
 
 # target to build an object file
 src/Transfer/Power.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Power.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Power.cpp.o
 .PHONY : src/Transfer/Power.cpp.o
 
 src/Transfer/Power.i: src/Transfer/Power.cpp.i
@@ -1053,7 +1101,7 @@ src/Transfer/Power.i: src/Transfer/Power.cpp.i
 
 # target to preprocess a source file
 src/Transfer/Power.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Power.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Power.cpp.i
 .PHONY : src/Transfer/Power.cpp.i
 
 src/Transfer/Power.s: src/Transfer/Power.cpp.s
@@ -1061,7 +1109,7 @@ src/Transfer/Power.s: src/Transfer/Power.cpp.s
 
 # target to generate assembly for a file
 src/Transfer/Power.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Power.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Power.cpp.s
 .PHONY : src/Transfer/Power.cpp.s
 
 src/Transfer/Sampling.o: src/Transfer/Sampling.cpp.o
@@ -1069,7 +1117,7 @@ src/Transfer/Sampling.o: src/Transfer/Sampling.cpp.o
 
 # target to build an object file
 src/Transfer/Sampling.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Sampling.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Sampling.cpp.o
 .PHONY : src/Transfer/Sampling.cpp.o
 
 src/Transfer/Sampling.i: src/Transfer/Sampling.cpp.i
@@ -1077,7 +1125,7 @@ src/Transfer/Sampling.i: src/Transfer/Sampling.cpp.i
 
 # target to preprocess a source file
 src/Transfer/Sampling.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Sampling.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Sampling.cpp.i
 .PHONY : src/Transfer/Sampling.cpp.i
 
 src/Transfer/Sampling.s: src/Transfer/Sampling.cpp.s
@@ -1085,7 +1133,7 @@ src/Transfer/Sampling.s: src/Transfer/Sampling.cpp.s
 
 # target to generate assembly for a file
 src/Transfer/Sampling.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/Sampling.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/Sampling.cpp.s
 .PHONY : src/Transfer/Sampling.cpp.s
 
 src/Transfer/SphericalHarmonics.o: src/Transfer/SphericalHarmonics.cpp.o
@@ -1093,7 +1141,7 @@ src/Transfer/SphericalHarmonics.o: src/Transfer/SphericalHarmonics.cpp.o
 
 # target to build an object file
 src/Transfer/SphericalHarmonics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/SphericalHarmonics.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/SphericalHarmonics.cpp.o
 .PHONY : src/Transfer/SphericalHarmonics.cpp.o
 
 src/Transfer/SphericalHarmonics.i: src/Transfer/SphericalHarmonics.cpp.i
@@ -1101,7 +1149,7 @@ src/Transfer/SphericalHarmonics.i: src/Transfer/SphericalHarmonics.cpp.i
 
 # target to preprocess a source file
 src/Transfer/SphericalHarmonics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/SphericalHarmonics.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/SphericalHarmonics.cpp.i
 .PHONY : src/Transfer/SphericalHarmonics.cpp.i
 
 src/Transfer/SphericalHarmonics.s: src/Transfer/SphericalHarmonics.cpp.s
@@ -1109,7 +1157,7 @@ src/Transfer/SphericalHarmonics.s: src/Transfer/SphericalHarmonics.cpp.s
 
 # target to generate assembly for a file
 src/Transfer/SphericalHarmonics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Transfer/SphericalHarmonics.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Transfer/SphericalHarmonics.cpp.s
 .PHONY : src/Transfer/SphericalHarmonics.cpp.s
 
 src/Utils/colormap.o: src/Utils/colormap.cpp.o
@@ -1117,7 +1165,7 @@ src/Utils/colormap.o: src/Utils/colormap.cpp.o
 
 # target to build an object file
 src/Utils/colormap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/colormap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/colormap.cpp.o
 .PHONY : src/Utils/colormap.cpp.o
 
 src/Utils/colormap.i: src/Utils/colormap.cpp.i
@@ -1125,7 +1173,7 @@ src/Utils/colormap.i: src/Utils/colormap.cpp.i
 
 # target to preprocess a source file
 src/Utils/colormap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/colormap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/colormap.cpp.i
 .PHONY : src/Utils/colormap.cpp.i
 
 src/Utils/colormap.s: src/Utils/colormap.cpp.s
@@ -1133,7 +1181,7 @@ src/Utils/colormap.s: src/Utils/colormap.cpp.s
 
 # target to generate assembly for a file
 src/Utils/colormap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/colormap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/colormap.cpp.s
 .PHONY : src/Utils/colormap.cpp.s
 
 src/Utils/utils.o: src/Utils/utils.cpp.o
@@ -1141,7 +1189,7 @@ src/Utils/utils.o: src/Utils/utils.cpp.o
 
 # target to build an object file
 src/Utils/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/utils.cpp.o
 .PHONY : src/Utils/utils.cpp.o
 
 src/Utils/utils.i: src/Utils/utils.cpp.i
@@ -1149,7 +1197,7 @@ src/Utils/utils.i: src/Utils/utils.cpp.i
 
 # target to preprocess a source file
 src/Utils/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/utils.cpp.i
 .PHONY : src/Utils/utils.cpp.i
 
 src/Utils/utils.s: src/Utils/utils.cpp.s
@@ -1157,32 +1205,8 @@ src/Utils/utils.s: src/Utils/utils.cpp.s
 
 # target to generate assembly for a file
 src/Utils/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/src/Utils/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Plink.dir/build.make CMakeFiles/Plink.dir/src/Utils/utils.cpp.s
 .PHONY : src/Utils/utils.cpp.s
-
-test/modal/test_realtime_modal_sound.o: test/modal/test_realtime_modal_sound.cpp.o
-.PHONY : test/modal/test_realtime_modal_sound.o
-
-# target to build an object file
-test/modal/test_realtime_modal_sound.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/test/modal/test_realtime_modal_sound.cpp.o
-.PHONY : test/modal/test_realtime_modal_sound.cpp.o
-
-test/modal/test_realtime_modal_sound.i: test/modal/test_realtime_modal_sound.cpp.i
-.PHONY : test/modal/test_realtime_modal_sound.i
-
-# target to preprocess a source file
-test/modal/test_realtime_modal_sound.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/test/modal/test_realtime_modal_sound.cpp.i
-.PHONY : test/modal/test_realtime_modal_sound.cpp.i
-
-test/modal/test_realtime_modal_sound.s: test/modal/test_realtime_modal_sound.cpp.s
-.PHONY : test/modal/test_realtime_modal_sound.s
-
-# target to generate assembly for a file
-test/modal/test_realtime_modal_sound.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_realtime_modal_sound.dir/build.make CMakeFiles/test_realtime_modal_sound.dir/test/modal/test_realtime_modal_sound.cpp.s
-.PHONY : test/modal/test_realtime_modal_sound.cpp.s
 
 # Help Target
 help:
@@ -1203,6 +1227,7 @@ help:
 	@echo "... test_integration"
 	@echo "... test_package"
 	@echo "... uninstall"
+	@echo "... Plink"
 	@echo "... embree"
 	@echo "... glad"
 	@echo "... glfw"
@@ -1227,7 +1252,6 @@ help:
 	@echo "... simd"
 	@echo "... sys"
 	@echo "... tasking"
-	@echo "... test_realtime_modal_sound"
 	@echo "... tetgen"
 	@echo "... _deps/imgui-src/backends/imgui_impl_glfw.o"
 	@echo "... _deps/imgui-src/backends/imgui_impl_glfw.i"
@@ -1256,6 +1280,12 @@ help:
 	@echo "... _deps/imguizmo-src/ImGuizmo.o"
 	@echo "... _deps/imguizmo-src/ImGuizmo.i"
 	@echo "... _deps/imguizmo-src/ImGuizmo.s"
+	@echo "... external/glad/glad.o"
+	@echo "... external/glad/glad.i"
+	@echo "... external/glad/glad.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... src/Audio/AudioManager.o"
 	@echo "... src/Audio/AudioManager.i"
 	@echo "... src/Audio/AudioManager.s"
@@ -1301,9 +1331,6 @@ help:
 	@echo "... src/Utils/utils.o"
 	@echo "... src/Utils/utils.i"
 	@echo "... src/Utils/utils.s"
-	@echo "... test/modal/test_realtime_modal_sound.o"
-	@echo "... test/modal/test_realtime_modal_sound.i"
-	@echo "... test/modal/test_realtime_modal_sound.s"
 .PHONY : help
 
 

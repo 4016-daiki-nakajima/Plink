@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/external/spectra
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/external/spectra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/external/spectra/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/Plink/external/spectra/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra/Spectra-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra/Spectra-targets.cmake"
-         "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/spectra/CMakeFiles/Export/98e5806ea82e173355e88d6a8703936e/Spectra-targets.cmake")
+         "/Users/daiki/Documents/Stanford/Research/Plink/build/external/spectra/CMakeFiles/Export/98e5806ea82e173355e88d6a8703936e/Spectra-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra/Spectra-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -58,13 +58,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/spectra/CMakeFiles/Export/98e5806ea82e173355e88d6a8703936e/Spectra-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/external/spectra/CMakeFiles/Export/98e5806ea82e173355e88d6a8703936e/Spectra-targets.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Spectra" TYPE FILE FILES
-    "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/cmake/spectra-config.cmake"
-    "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/cmake/spectra-config-version.cmake"
+    "/Users/daiki/Documents/Stanford/Research/Plink/build/cmake/spectra-config.cmake"
+    "/Users/daiki/Documents/Stanford/Research/Plink/build/cmake/spectra-config-version.cmake"
     )
 endif()
 

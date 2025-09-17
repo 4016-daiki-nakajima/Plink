@@ -1,7 +1,7 @@
 external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/decoders/libvorbis/../../../miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/decoders/libvorbis/../../../miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -69,7 +69,7 @@ external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /opt/homebrew/include/vorbis/vorbisfile.h \
+  /opt/homebrew/Cellar/libvorbis/1.3.7/include/vorbis/vorbisfile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_va_list.h \
@@ -81,9 +81,10 @@ external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/secure/_common.h \
-  /opt/homebrew/include/vorbis/codec.h /opt/homebrew/include/ogg/ogg.h \
+  /opt/homebrew/Cellar/libvorbis/1.3.7/include/vorbis/codec.h \
+  /opt/homebrew/Cellar/libogg/1.3.6/include/ogg/ogg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /opt/homebrew/include/ogg/os_types.h \
+  /opt/homebrew/Cellar/libogg/1.3.6/include/ogg/os_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/endian.h \

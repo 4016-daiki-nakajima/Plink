@@ -1,7 +1,7 @@
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/sse.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/sse.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/sse.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/sse.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -818,28 +818,28 @@ _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/../simd/arm/sse2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/../simd/arm/sse2neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/OSCacheControl.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/../simd/arm/avx2neon.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../sys/alloc.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/../simd/arm/avx2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../sys/alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../math/constants.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../math/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../math/constants.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../math/../sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/float.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/varying.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/vboolf4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/vint4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../math/emath.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../math/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/../math/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/vuint4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/vfloat4_sse2.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/varying.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/vboolf4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/vint4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../math/emath.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../math/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/../math/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/vuint4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/vfloat4_sse2.h

@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild
 
 # Utility rule file for embree-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/embree-populate-complete: embree-populate-prefix/src/embree-populate-
 CMakeFiles/embree-populate-complete: embree-populate-prefix/src/embree-populate-stamp/embree-populate-build
 CMakeFiles/embree-populate-complete: embree-populate-prefix/src/embree-populate-stamp/embree-populate-install
 CMakeFiles/embree-populate-complete: embree-populate-prefix/src/embree-populate-stamp/embree-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'embree-populate'"
-	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles/embree-populate-complete
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'embree-populate'"
+	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles/embree-populate-complete
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-done
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-update:
 .PHONY : embree-populate-prefix/src/embree-populate-stamp/embree-populate-update
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-build: embree-populate-prefix/src/embree-populate-stamp/embree-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-build
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-configure: embree-populate-prefix/tmp/embree-populate-cfgcmd.txt
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-configure: embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-configure
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-download: embree-populate-prefix/src/embree-populate-stamp/embree-populate-gitinfo.txt
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-download: embree-populate-prefix/src/embree-populate-stamp/embree-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-gitclone.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-gitclone.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-download
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-install: embree-populate-prefix/src/embree-populate-stamp/embree-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-install
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'embree-populate'"
-	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-mkdirs.cmake
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'embree-populate'"
+	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-mkdirs.cmake
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-mkdir
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch: embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch-info.txt
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch: embree-populate-prefix/src/embree-populate-stamp/embree-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'embree-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'embree-populate'"
 	/opt/anaconda3/bin/cmake -E echo_append
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-patch
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-update:
 .PHONY : embree-populate-prefix/src/embree-populate-stamp/embree-populate-update
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-test: embree-populate-prefix/src/embree-populate-stamp/embree-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/src/embree-populate-stamp/embree-populate-test
 
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-update: embree-populate-prefix/tmp/embree-populate-gitupdate.cmake
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-update: embree-populate-prefix/src/embree-populate-stamp/embree-populate-update-info.txt
 embree-populate-prefix/src/embree-populate-stamp/embree-populate-update: embree-populate-prefix/src/embree-populate-stamp/embree-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'embree-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'embree-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/embree-populate-prefix/tmp/embree-populate-gitupdate.cmake
 
 embree-populate: CMakeFiles/embree-populate
 embree-populate: CMakeFiles/embree-populate-complete
@@ -154,6 +154,6 @@ CMakeFiles/embree-populate.dir/clean:
 .PHONY : CMakeFiles/embree-populate.dir/clean
 
 CMakeFiles/embree-populate.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-subbuild/CMakeFiles/embree-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-subbuild/CMakeFiles/embree-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/embree-populate.dir/depend
 

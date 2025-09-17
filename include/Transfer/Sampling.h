@@ -11,15 +11,15 @@ class Sampling {
 public:
   // Sample N points inside a TetMesh, distributed uniformly by volume
     static void samplePointsInTetMesh(
-      Eigen::MatrixXd &points,
-      const TetMesh &mesh,
+      Eigen::MatrixXd& points,
+      const TetMesh& mesh,
       int num_points,
       unsigned int seed = 42);
 
     static void samplePointsOnOffsetSurface(
-      Eigen::MatrixXd &points,
-      const Eigen::MatrixXd &V,
-      const Eigen::MatrixXi &F,
+      Eigen::MatrixXd& points,
+      const Eigen::MatrixXd& V,
+      const Eigen::MatrixXi& F,
       double offset,
       int num_points,
       int offset_surface_resolution,

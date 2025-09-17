@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/lexers/stringstream.cpp" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o" "gcc" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o.d"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/lexers/tokenstream.cpp" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o" "gcc" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/lexers/stringstream.cpp" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o" "gcc" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/lexers/tokenstream.cpp" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o" "gcc" "_deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

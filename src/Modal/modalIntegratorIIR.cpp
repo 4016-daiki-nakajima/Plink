@@ -1,4 +1,4 @@
-#include "modalIntegratorIIR.h"
+#include "Modal/modalIntegratorIIR.h"
 
 using namespace SimpleModal;
 

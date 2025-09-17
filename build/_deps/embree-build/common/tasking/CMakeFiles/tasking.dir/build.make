@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/flags.make
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o: _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/flags.make
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o: _deps/embree-src/common/tasking/taskschedulerinternal.cpp
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o: _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o -MF CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o.d -o CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o -MF CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o.d -o CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o -c /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp
 
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tasking.dir/taskschedulerinternal.cpp.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp > CMakeFiles/tasking.dir/taskschedulerinternal.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp > CMakeFiles/tasking.dir/taskschedulerinternal.cpp.i
 
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tasking.dir/taskschedulerinternal.cpp.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp -o CMakeFiles/tasking.dir/taskschedulerinternal.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp -o CMakeFiles/tasking.dir/taskschedulerinternal.cpp.s
 
 # Object files for target tasking
 tasking_OBJECTS = \
@@ -93,19 +93,19 @@ tasking_EXTERNAL_OBJECTS =
 _deps/embree-build/libtasking.a: _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o
 _deps/embree-build/libtasking.a: _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/build.make
 _deps/embree-build/libtasking.a: _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libtasking.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -P CMakeFiles/tasking.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tasking.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libtasking.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -P CMakeFiles/tasking.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tasking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/build: _deps/embree-build/libtasking.a
 .PHONY : _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/build
 
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -P CMakeFiles/tasking.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking && $(CMAKE_COMMAND) -P CMakeFiles/tasking.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/clean
 
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking/CMakeFiles/tasking.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking/CMakeFiles/tasking.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/depend
 

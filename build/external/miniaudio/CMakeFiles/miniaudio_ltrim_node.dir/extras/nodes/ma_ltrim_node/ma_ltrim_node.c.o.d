@@ -1,7 +1,7 @@
 external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_ltrim_node/../../../miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_ltrim_node/../../../miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \

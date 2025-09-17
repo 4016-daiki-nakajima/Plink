@@ -1,5 +1,5 @@
-#include "TetMesh.h"
-#include "utils.h"
+#include "Geometry/TetMesh.h"
+#include "Utils/utils.h"
 #include <igl/readOBJ.h>
 #include <igl/readPLY.h>
 #include <igl/readOFF.h>

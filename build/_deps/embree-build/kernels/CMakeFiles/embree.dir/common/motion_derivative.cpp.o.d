@@ -1,11 +1,11 @@
 _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/motion_derivative.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/motion_derivative.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/affinespace.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/linearspace2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/emath.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/motion_derivative.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/motion_derivative.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/affinespace.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/linearspace2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/emath.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -822,48 +822,48 @@ _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.o:
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/sse2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/sse2neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/OSCacheControl.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/avx2neon.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/constants.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/../simd/arm/avx2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/constants.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/float.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec2fa.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../sys/alloc.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec2fa.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../sys/alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/sse.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/platform.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/alloc.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/../math/constants.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/varying.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/vboolf4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/vint4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/../math/emath.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/vuint4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/vfloat4_sse2.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/linearspace3.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec3.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec3ba.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec3ia.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec3fa.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/quaternion.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/vec4.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/transcendental.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/../simd/simd.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/bbox.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/math/interval.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/sys/regression.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/common/../../common/sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/sse.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/../sys/alloc.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/../math/constants.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/varying.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/vboolf4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/vint4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/../math/emath.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/vuint4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/vfloat4_sse2.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/linearspace3.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec3.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec3ba.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec3ia.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec3fa.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/quaternion.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/vec4.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/transcendental.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/../simd/simd.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/bbox.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/math/interval.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/sys/regression.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/common/../../common/sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \

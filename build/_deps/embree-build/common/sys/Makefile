@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/sys//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/sys//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/embree-build/common/sys/CMakeFiles/sys.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/CMakeFiles/sys.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/sys/CMakeFiles/sys.dir/rule
 .PHONY : _deps/embree-build/common/sys/CMakeFiles/sys.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ sys: _deps/embree-build/common/sys/CMakeFiles/sys.dir/rule
 
 # fast build rule for target.
 sys/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/build
 .PHONY : sys/fast
 
 alloc.o: alloc.cpp.o
@@ -200,7 +200,7 @@ alloc.o: alloc.cpp.o
 
 # target to build an object file
 alloc.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.o
 .PHONY : alloc.cpp.o
 
 alloc.i: alloc.cpp.i
@@ -208,7 +208,7 @@ alloc.i: alloc.cpp.i
 
 # target to preprocess a source file
 alloc.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.i
 .PHONY : alloc.cpp.i
 
 alloc.s: alloc.cpp.s
@@ -216,7 +216,7 @@ alloc.s: alloc.cpp.s
 
 # target to generate assembly for a file
 alloc.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/alloc.cpp.s
 .PHONY : alloc.cpp.s
 
 barrier.o: barrier.cpp.o
@@ -224,7 +224,7 @@ barrier.o: barrier.cpp.o
 
 # target to build an object file
 barrier.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.o
 .PHONY : barrier.cpp.o
 
 barrier.i: barrier.cpp.i
@@ -232,7 +232,7 @@ barrier.i: barrier.cpp.i
 
 # target to preprocess a source file
 barrier.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.i
 .PHONY : barrier.cpp.i
 
 barrier.s: barrier.cpp.s
@@ -240,7 +240,7 @@ barrier.s: barrier.cpp.s
 
 # target to generate assembly for a file
 barrier.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.s
 .PHONY : barrier.cpp.s
 
 condition.o: condition.cpp.o
@@ -248,7 +248,7 @@ condition.o: condition.cpp.o
 
 # target to build an object file
 condition.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.o
 .PHONY : condition.cpp.o
 
 condition.i: condition.cpp.i
@@ -256,7 +256,7 @@ condition.i: condition.cpp.i
 
 # target to preprocess a source file
 condition.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.i
 .PHONY : condition.cpp.i
 
 condition.s: condition.cpp.s
@@ -264,7 +264,7 @@ condition.s: condition.cpp.s
 
 # target to generate assembly for a file
 condition.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/condition.cpp.s
 .PHONY : condition.cpp.s
 
 estring.o: estring.cpp.o
@@ -272,7 +272,7 @@ estring.o: estring.cpp.o
 
 # target to build an object file
 estring.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.o
 .PHONY : estring.cpp.o
 
 estring.i: estring.cpp.i
@@ -280,7 +280,7 @@ estring.i: estring.cpp.i
 
 # target to preprocess a source file
 estring.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.i
 .PHONY : estring.cpp.i
 
 estring.s: estring.cpp.s
@@ -288,7 +288,7 @@ estring.s: estring.cpp.s
 
 # target to generate assembly for a file
 estring.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/estring.cpp.s
 .PHONY : estring.cpp.s
 
 filename.o: filename.cpp.o
@@ -296,7 +296,7 @@ filename.o: filename.cpp.o
 
 # target to build an object file
 filename.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.o
 .PHONY : filename.cpp.o
 
 filename.i: filename.cpp.i
@@ -304,7 +304,7 @@ filename.i: filename.cpp.i
 
 # target to preprocess a source file
 filename.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.i
 .PHONY : filename.cpp.i
 
 filename.s: filename.cpp.s
@@ -312,7 +312,7 @@ filename.s: filename.cpp.s
 
 # target to generate assembly for a file
 filename.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/filename.cpp.s
 .PHONY : filename.cpp.s
 
 library.o: library.cpp.o
@@ -320,7 +320,7 @@ library.o: library.cpp.o
 
 # target to build an object file
 library.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.o
 .PHONY : library.cpp.o
 
 library.i: library.cpp.i
@@ -328,7 +328,7 @@ library.i: library.cpp.i
 
 # target to preprocess a source file
 library.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.i
 .PHONY : library.cpp.i
 
 library.s: library.cpp.s
@@ -336,7 +336,7 @@ library.s: library.cpp.s
 
 # target to generate assembly for a file
 library.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/library.cpp.s
 .PHONY : library.cpp.s
 
 mutex.o: mutex.cpp.o
@@ -344,7 +344,7 @@ mutex.o: mutex.cpp.o
 
 # target to build an object file
 mutex.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.o
 .PHONY : mutex.cpp.o
 
 mutex.i: mutex.cpp.i
@@ -352,7 +352,7 @@ mutex.i: mutex.cpp.i
 
 # target to preprocess a source file
 mutex.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.i
 .PHONY : mutex.cpp.i
 
 mutex.s: mutex.cpp.s
@@ -360,7 +360,7 @@ mutex.s: mutex.cpp.s
 
 # target to generate assembly for a file
 mutex.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/mutex.cpp.s
 .PHONY : mutex.cpp.s
 
 regression.o: regression.cpp.o
@@ -368,7 +368,7 @@ regression.o: regression.cpp.o
 
 # target to build an object file
 regression.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.o
 .PHONY : regression.cpp.o
 
 regression.i: regression.cpp.i
@@ -376,7 +376,7 @@ regression.i: regression.cpp.i
 
 # target to preprocess a source file
 regression.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.i
 .PHONY : regression.cpp.i
 
 regression.s: regression.cpp.s
@@ -384,7 +384,7 @@ regression.s: regression.cpp.s
 
 # target to generate assembly for a file
 regression.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/regression.cpp.s
 .PHONY : regression.cpp.s
 
 sysinfo.o: sysinfo.cpp.o
@@ -392,7 +392,7 @@ sysinfo.o: sysinfo.cpp.o
 
 # target to build an object file
 sysinfo.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.o
 .PHONY : sysinfo.cpp.o
 
 sysinfo.i: sysinfo.cpp.i
@@ -400,7 +400,7 @@ sysinfo.i: sysinfo.cpp.i
 
 # target to preprocess a source file
 sysinfo.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.i
 .PHONY : sysinfo.cpp.i
 
 sysinfo.s: sysinfo.cpp.s
@@ -408,7 +408,7 @@ sysinfo.s: sysinfo.cpp.s
 
 # target to generate assembly for a file
 sysinfo.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/sysinfo.cpp.s
 .PHONY : sysinfo.cpp.s
 
 thread.o: thread.cpp.o
@@ -416,7 +416,7 @@ thread.o: thread.cpp.o
 
 # target to build an object file
 thread.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.o
 .PHONY : thread.cpp.o
 
 thread.i: thread.cpp.i
@@ -424,7 +424,7 @@ thread.i: thread.cpp.i
 
 # target to preprocess a source file
 thread.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.i
 .PHONY : thread.cpp.i
 
 thread.s: thread.cpp.s
@@ -432,7 +432,7 @@ thread.s: thread.cpp.s
 
 # target to generate assembly for a file
 thread.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/sys/CMakeFiles/sys.dir/build.make _deps/embree-build/common/sys/CMakeFiles/sys.dir/thread.cpp.s
 .PHONY : thread.cpp.s
 
 # Help Target
@@ -491,6 +491,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

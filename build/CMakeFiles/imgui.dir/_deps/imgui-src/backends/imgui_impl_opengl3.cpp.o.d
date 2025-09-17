@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imconfig.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -115,7 +115,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/backends/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdio.h \
@@ -126,7 +126,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_off_t.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/backends/imgui_impl_opengl3_loader.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/backends/imgui_impl_opengl3_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h

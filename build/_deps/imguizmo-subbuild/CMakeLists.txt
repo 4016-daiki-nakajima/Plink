@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(imguizmo-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/CedricGuillemet/ImGuizmo.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "a23567269f6617342bcc112394bdad937b54b2d7"
-                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-src"
-                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build"
+                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-src"
+                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

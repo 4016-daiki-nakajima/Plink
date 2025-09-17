@@ -1,7 +1,7 @@
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/constants.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/constants.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/constants.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/constants.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/../sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \

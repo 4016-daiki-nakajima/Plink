@@ -5,6 +5,6 @@
 INCLUDE("${CMAKE_CURRENT_LIST_DIR}/embree-config-install.cmake")
 
 # and override path variables to match for build directory
-SET(EMBREE_INCLUDE_DIRS /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/include)
-SET(EMBREE_LIBRARY /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/libembree4.a)
+SET(EMBREE_INCLUDE_DIRS /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/include)
+SET(EMBREE_LIBRARY /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/libembree4.a)
 SET(EMBREE_LIBRARIES ${EMBREE_LIBRARY})

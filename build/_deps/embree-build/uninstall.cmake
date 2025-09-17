@@ -1,11 +1,11 @@
 ## Copyright 2009-2021 Intel Corporation
 ## SPDX-License-Identifier: Apache-2.0
 
-IF(NOT EXISTS "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/install_manifest.txt")
-ENDIF(NOT EXISTS "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/install_manifest.txt")
+IF(NOT EXISTS "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/install_manifest.txt")
+ENDIF(NOT EXISTS "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/install_manifest.txt")
 
-FILE(READ "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/install_manifest.txt" files)
+FILE(READ "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling $ENV{DESTDIR}${file}")

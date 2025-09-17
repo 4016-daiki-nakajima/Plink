@@ -1,5 +1,5 @@
 _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glad-src/src/glad.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glad-src/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_bounds.h \
@@ -92,7 +92,7 @@ _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/secure/_string.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glad-src/include/glad/glad.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glad-src/include/KHR/khrplatform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glad-src/include/glad/glad.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glad-src/include/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h

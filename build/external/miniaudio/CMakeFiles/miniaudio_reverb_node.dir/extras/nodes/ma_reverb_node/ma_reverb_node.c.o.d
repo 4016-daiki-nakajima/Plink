@@ -1,7 +1,7 @@
 external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_reverb_node/ma_reverb_node.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_reverb_node/ma_reverb_node.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_reverb_node/../../../miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_reverb_node/ma_reverb_node.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_reverb_node/ma_reverb_node.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_reverb_node/../../../miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -69,7 +69,7 @@ external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_n
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_reverb_node/verblib.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_reverb_node/verblib.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/string.h \

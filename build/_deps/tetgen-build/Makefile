@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/tetgen-build/CMakeFiles/tetgen.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/CMakeFiles/tetgen.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/tetgen-build/CMakeFiles/tetgen.dir/rule
 .PHONY : _deps/tetgen-build/CMakeFiles/tetgen.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ tetgen: _deps/tetgen-build/CMakeFiles/tetgen.dir/rule
 
 # fast build rule for target.
 tetgen/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/build
 .PHONY : tetgen/fast
 
 predicates.o: predicates.cxx.o
@@ -200,7 +200,7 @@ predicates.o: predicates.cxx.o
 
 # target to build an object file
 predicates.cxx.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o
 .PHONY : predicates.cxx.o
 
 predicates.i: predicates.cxx.i
@@ -208,7 +208,7 @@ predicates.i: predicates.cxx.i
 
 # target to preprocess a source file
 predicates.cxx.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.i
 .PHONY : predicates.cxx.i
 
 predicates.s: predicates.cxx.s
@@ -216,7 +216,7 @@ predicates.s: predicates.cxx.s
 
 # target to generate assembly for a file
 predicates.cxx.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.s
 .PHONY : predicates.cxx.s
 
 tetgen.o: tetgen.cxx.o
@@ -224,7 +224,7 @@ tetgen.o: tetgen.cxx.o
 
 # target to build an object file
 tetgen.cxx.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o
 .PHONY : tetgen.cxx.o
 
 tetgen.i: tetgen.cxx.i
@@ -232,7 +232,7 @@ tetgen.i: tetgen.cxx.i
 
 # target to preprocess a source file
 tetgen.cxx.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.i
 .PHONY : tetgen.cxx.i
 
 tetgen.s: tetgen.cxx.s
@@ -240,7 +240,7 @@ tetgen.s: tetgen.cxx.s
 
 # target to generate assembly for a file
 tetgen.cxx.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.s
 .PHONY : tetgen.cxx.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ miniaudio: external/miniaudio/CMakeFiles/miniaudio.dir/rule
 
 # fast build rule for target.
 miniaudio/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/build
 .PHONY : miniaudio/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/rule
 
 # Convenience name for target.
@@ -206,12 +206,12 @@ miniaudio_libvorbis: external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/rule
 
 # fast build rule for target.
 miniaudio_libvorbis/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build
 .PHONY : miniaudio_libvorbis/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/rule
 
 # Convenience name for target.
@@ -220,12 +220,12 @@ miniaudio_channel_combiner_node: external/miniaudio/CMakeFiles/miniaudio_channel
 
 # fast build rule for target.
 miniaudio_channel_combiner_node/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build
 .PHONY : miniaudio_channel_combiner_node/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/rule
 
 # Convenience name for target.
@@ -234,12 +234,12 @@ miniaudio_channel_separator_node: external/miniaudio/CMakeFiles/miniaudio_channe
 
 # fast build rule for target.
 miniaudio_channel_separator_node/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build
 .PHONY : miniaudio_channel_separator_node/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/rule
 
 # Convenience name for target.
@@ -248,12 +248,12 @@ miniaudio_ltrim_node: external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/rul
 
 # fast build rule for target.
 miniaudio_ltrim_node/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build
 .PHONY : miniaudio_ltrim_node/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/rule
 
 # Convenience name for target.
@@ -262,12 +262,12 @@ miniaudio_reverb_node: external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/r
 
 # fast build rule for target.
 miniaudio_reverb_node/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build
 .PHONY : miniaudio_reverb_node/fast
 
 # Convenience name for target.
 external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/rule
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/rule
 
 # Convenience name for target.
@@ -276,7 +276,7 @@ miniaudio_vocoder_node: external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir
 
 # fast build rule for target.
 miniaudio_vocoder_node/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build
 .PHONY : miniaudio_vocoder_node/fast
 
 extras/decoders/libvorbis/miniaudio_libvorbis.o: extras/decoders/libvorbis/miniaudio_libvorbis.c.o
@@ -284,7 +284,7 @@ extras/decoders/libvorbis/miniaudio_libvorbis.o: extras/decoders/libvorbis/minia
 
 # target to build an object file
 extras/decoders/libvorbis/miniaudio_libvorbis.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o
 .PHONY : extras/decoders/libvorbis/miniaudio_libvorbis.c.o
 
 extras/decoders/libvorbis/miniaudio_libvorbis.i: extras/decoders/libvorbis/miniaudio_libvorbis.c.i
@@ -292,7 +292,7 @@ extras/decoders/libvorbis/miniaudio_libvorbis.i: extras/decoders/libvorbis/minia
 
 # target to preprocess a source file
 extras/decoders/libvorbis/miniaudio_libvorbis.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.i
 .PHONY : extras/decoders/libvorbis/miniaudio_libvorbis.c.i
 
 extras/decoders/libvorbis/miniaudio_libvorbis.s: extras/decoders/libvorbis/miniaudio_libvorbis.c.s
@@ -300,7 +300,7 @@ extras/decoders/libvorbis/miniaudio_libvorbis.s: extras/decoders/libvorbis/minia
 
 # target to generate assembly for a file
 extras/decoders/libvorbis/miniaudio_libvorbis.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/build.make external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.s
 .PHONY : extras/decoders/libvorbis/miniaudio_libvorbis.c.s
 
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.o: extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.o
@@ -308,7 +308,7 @@ extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.o: extras/nodes/m
 
 # target to build an object file
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.o
 .PHONY : extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.o
 
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.i: extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.i
@@ -316,7 +316,7 @@ extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.i: extras/nodes/m
 
 # target to preprocess a source file
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.i
 .PHONY : extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.i
 
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.s: extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.s
@@ -324,7 +324,7 @@ extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.s: extras/nodes/m
 
 # target to generate assembly for a file
 extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_combiner_node.dir/extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.s
 .PHONY : extras/nodes/ma_channel_combiner_node/ma_channel_combiner_node.c.s
 
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.o: extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o
@@ -332,7 +332,7 @@ extras/nodes/ma_channel_separator_node/ma_channel_separator_node.o: extras/nodes
 
 # target to build an object file
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o
 .PHONY : extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o
 
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.i: extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
@@ -340,7 +340,7 @@ extras/nodes/ma_channel_separator_node/ma_channel_separator_node.i: extras/nodes
 
 # target to preprocess a source file
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
 .PHONY : extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
 
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.s: extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
@@ -348,7 +348,7 @@ extras/nodes/ma_channel_separator_node/ma_channel_separator_node.s: extras/nodes
 
 # target to generate assembly for a file
 extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
 .PHONY : extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
 
 extras/nodes/ma_ltrim_node/ma_ltrim_node.o: extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o
@@ -356,7 +356,7 @@ extras/nodes/ma_ltrim_node/ma_ltrim_node.o: extras/nodes/ma_ltrim_node/ma_ltrim_
 
 # target to build an object file
 extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o
 .PHONY : extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o
 
 extras/nodes/ma_ltrim_node/ma_ltrim_node.i: extras/nodes/ma_ltrim_node/ma_ltrim_node.c.i
@@ -364,7 +364,7 @@ extras/nodes/ma_ltrim_node/ma_ltrim_node.i: extras/nodes/ma_ltrim_node/ma_ltrim_
 
 # target to preprocess a source file
 extras/nodes/ma_ltrim_node/ma_ltrim_node.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.i
 .PHONY : extras/nodes/ma_ltrim_node/ma_ltrim_node.c.i
 
 extras/nodes/ma_ltrim_node/ma_ltrim_node.s: extras/nodes/ma_ltrim_node/ma_ltrim_node.c.s
@@ -372,7 +372,7 @@ extras/nodes/ma_ltrim_node/ma_ltrim_node.s: extras/nodes/ma_ltrim_node/ma_ltrim_
 
 # target to generate assembly for a file
 extras/nodes/ma_ltrim_node/ma_ltrim_node.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.s
 .PHONY : extras/nodes/ma_ltrim_node/ma_ltrim_node.c.s
 
 extras/nodes/ma_reverb_node/ma_reverb_node.o: extras/nodes/ma_reverb_node/ma_reverb_node.c.o
@@ -380,7 +380,7 @@ extras/nodes/ma_reverb_node/ma_reverb_node.o: extras/nodes/ma_reverb_node/ma_rev
 
 # target to build an object file
 extras/nodes/ma_reverb_node/ma_reverb_node.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.o
 .PHONY : extras/nodes/ma_reverb_node/ma_reverb_node.c.o
 
 extras/nodes/ma_reverb_node/ma_reverb_node.i: extras/nodes/ma_reverb_node/ma_reverb_node.c.i
@@ -388,7 +388,7 @@ extras/nodes/ma_reverb_node/ma_reverb_node.i: extras/nodes/ma_reverb_node/ma_rev
 
 # target to preprocess a source file
 extras/nodes/ma_reverb_node/ma_reverb_node.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.i
 .PHONY : extras/nodes/ma_reverb_node/ma_reverb_node.c.i
 
 extras/nodes/ma_reverb_node/ma_reverb_node.s: extras/nodes/ma_reverb_node/ma_reverb_node.c.s
@@ -396,7 +396,7 @@ extras/nodes/ma_reverb_node/ma_reverb_node.s: extras/nodes/ma_reverb_node/ma_rev
 
 # target to generate assembly for a file
 extras/nodes/ma_reverb_node/ma_reverb_node.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_reverb_node.dir/extras/nodes/ma_reverb_node/ma_reverb_node.c.s
 .PHONY : extras/nodes/ma_reverb_node/ma_reverb_node.c.s
 
 extras/nodes/ma_vocoder_node/ma_vocoder_node.o: extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o
@@ -404,7 +404,7 @@ extras/nodes/ma_vocoder_node/ma_vocoder_node.o: extras/nodes/ma_vocoder_node/ma_
 
 # target to build an object file
 extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o
 .PHONY : extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o
 
 extras/nodes/ma_vocoder_node/ma_vocoder_node.i: extras/nodes/ma_vocoder_node/ma_vocoder_node.c.i
@@ -412,7 +412,7 @@ extras/nodes/ma_vocoder_node/ma_vocoder_node.i: extras/nodes/ma_vocoder_node/ma_
 
 # target to preprocess a source file
 extras/nodes/ma_vocoder_node/ma_vocoder_node.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.i
 .PHONY : extras/nodes/ma_vocoder_node/ma_vocoder_node.c.i
 
 extras/nodes/ma_vocoder_node/ma_vocoder_node.s: extras/nodes/ma_vocoder_node/ma_vocoder_node.c.s
@@ -420,7 +420,7 @@ extras/nodes/ma_vocoder_node/ma_vocoder_node.s: extras/nodes/ma_vocoder_node/ma_
 
 # target to generate assembly for a file
 extras/nodes/ma_vocoder_node/ma_vocoder_node.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/build.make external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.s
 .PHONY : extras/nodes/ma_vocoder_node/ma_vocoder_node.c.s
 
 miniaudio.o: miniaudio.c.o
@@ -428,7 +428,7 @@ miniaudio.o: miniaudio.c.o
 
 # target to build an object file
 miniaudio.c.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o
 .PHONY : miniaudio.c.o
 
 miniaudio.i: miniaudio.c.i
@@ -436,7 +436,7 @@ miniaudio.i: miniaudio.c.i
 
 # target to preprocess a source file
 miniaudio.c.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.i
 .PHONY : miniaudio.c.i
 
 miniaudio.s: miniaudio.c.s
@@ -444,7 +444,7 @@ miniaudio.s: miniaudio.c.s
 
 # target to generate assembly for a file
 miniaudio.c.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f external/miniaudio/CMakeFiles/miniaudio.dir/build.make external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.s
 .PHONY : miniaudio.c.s
 
 # Help Target
@@ -500,6 +500,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

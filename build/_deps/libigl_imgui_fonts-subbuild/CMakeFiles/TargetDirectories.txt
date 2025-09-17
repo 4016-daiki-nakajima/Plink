@@ -1,3 +1,3 @@
-/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate.dir
-/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/edit_cache.dir
-/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/rebuild_cache.dir
+/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate.dir
+/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/edit_cache.dir
+/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/rebuild_cache.dir

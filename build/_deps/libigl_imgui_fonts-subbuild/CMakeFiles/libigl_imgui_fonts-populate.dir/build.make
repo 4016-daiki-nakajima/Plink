@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild
 
 # Utility rule file for libigl_imgui_fonts-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/libigl_imgui_fonts-populate-complete: libigl_imgui_fonts-populate-pre
 CMakeFiles/libigl_imgui_fonts-populate-complete: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-build
 CMakeFiles/libigl_imgui_fonts-populate-complete: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-install
 CMakeFiles/libigl_imgui_fonts-populate-complete: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libigl_imgui_fonts-populate'"
-	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate-complete
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libigl_imgui_fonts-populate'"
+	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate-complete
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-done
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update:
 .PHONY : libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-build: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-build
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-configure: libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-cfgcmd.txt
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-configure: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-configure
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-download: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-gitinfo.txt
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-download: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitclone.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-download
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-install: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-install
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libigl_imgui_fonts-populate'"
-	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-mkdirs.cmake
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libigl_imgui_fonts-populate'"
+	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-mkdirs.cmake
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-mkdir
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch-info.txt
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'libigl_imgui_fonts-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'libigl_imgui_fonts-populate'"
 	/opt/anaconda3/bin/cmake -E echo_append
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-patch
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update:
 .PHONY : libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-test: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-test
 
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update: libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update-info.txt
 libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-update: libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/libigl_imgui_fonts-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'libigl_imgui_fonts-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'libigl_imgui_fonts-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp/libigl_imgui_fonts-populate-gitupdate.cmake
 
 libigl_imgui_fonts-populate: CMakeFiles/libigl_imgui_fonts-populate
 libigl_imgui_fonts-populate: CMakeFiles/libigl_imgui_fonts-populate-complete
@@ -154,6 +154,6 @@ CMakeFiles/libigl_imgui_fonts-populate.dir/clean:
 .PHONY : CMakeFiles/libigl_imgui_fonts-populate.dir/clean
 
 CMakeFiles/libigl_imgui_fonts-populate.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/CMakeFiles/libigl_imgui_fonts-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/libigl_imgui_fonts-populate.dir/depend
 

@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/depend.make
@@ -70,18 +70,18 @@ include external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/progr
 include external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/flags.make
 
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o: external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/flags.make
-external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o: /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c
+external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o: /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o: external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o -MF CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o.d -o CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o -MF CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o.d -o CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o -c /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c
 
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c > CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c > CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.i
 
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c -o CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c -o CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.s
 
 # Object files for target miniaudio_channel_separator_node
 miniaudio_channel_separator_node_OBJECTS = \
@@ -93,19 +93,19 @@ miniaudio_channel_separator_node_EXTERNAL_OBJECTS =
 external/miniaudio/libminiaudio_channel_separator_node.a: external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/extras/nodes/ma_channel_separator_node/ma_channel_separator_node.c.o
 external/miniaudio/libminiaudio_channel_separator_node.a: external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build.make
 external/miniaudio/libminiaudio_channel_separator_node.a: external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libminiaudio_channel_separator_node.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio_channel_separator_node.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniaudio_channel_separator_node.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libminiaudio_channel_separator_node.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio_channel_separator_node.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniaudio_channel_separator_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build: external/miniaudio/libminiaudio_channel_separator_node.a
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/build
 
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio_channel_separator_node.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio_channel_separator_node.dir/cmake_clean.cmake
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/clean
 
 external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/miniaudio/CMakeFiles/miniaudio_channel_separator_node.dir/depend
 

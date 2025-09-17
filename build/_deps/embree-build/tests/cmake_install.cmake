@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/tests
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

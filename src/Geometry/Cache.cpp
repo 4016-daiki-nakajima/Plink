@@ -1,13 +1,13 @@
 #include "Geometry/Cache.h"
-#include "utils.h"
+#include "Utils/utils.h"
 #include <filesystem>
 #include <fstream>
 #include <iostream>
 
 namespace SimpleModal {
 
-bool Cache::saveTetMesh(const std::string &filepath,
-                        const SimpleModal::TetMesh &tet_mesh) {
+bool Cache::saveTetMesh(const std::string& filepath,
+                        const TetMesh& tet_mesh) {
   std::ofstream file(filepath, std::ios::binary);
   if (!file.is_open()) {
     Utils::printError("Failed to open file for writing: " + filepath);
@@ -39,8 +39,9 @@ bool Cache::saveTetMesh(const std::string &filepath,
   return true;
 }
 
-bool Cache::loadTetMesh(const std::string &filepath,
-                        SimpleModal::TetMesh &tet_mesh) {
+bool Cache::loadTetMesh(const std::string& filepath,
+                        TetMesh& tet_mesh) 
+{
   std::ifstream file(filepath, std::ios::binary);
   if (!file.is_open()) {
     Utils::printError("Failed to open file for reading: " + filepath);
@@ -77,8 +78,9 @@ bool Cache::loadTetMesh(const std::string &filepath,
   return true;
 }
 
-bool Cache::saveModalData(const std::string &filepath, const Eigen::VectorXd &S,
-                          const Eigen::MatrixXd &U) {
+bool Cache::saveModalData(const std::string& filepath, 
+                          const Eigen::VectorXd& S,
+                          const Eigen::MatrixXd& U) {
   std::ofstream file(filepath, std::ios::binary);
   if (!file.is_open()) {
     Utils::printError("Failed to open file for writing: " + filepath);
@@ -104,8 +106,10 @@ bool Cache::saveModalData(const std::string &filepath, const Eigen::VectorXd &S,
   return true;
 }
 
-bool Cache::loadModalData(const std::string &filepath, Eigen::VectorXd &S,
-                          Eigen::MatrixXd &U) {
+bool Cache::loadModalData(const std::string& filepath, 
+                          Eigen::VectorXd& S,
+                          Eigen::MatrixXd& U) 
+{
   std::ifstream file(filepath, std::ios::binary);
   if (!file.is_open()) {
     Utils::printError("Failed to open file for reading: " + filepath);
@@ -132,7 +136,7 @@ bool Cache::loadModalData(const std::string &filepath, Eigen::VectorXd &S,
   return true;
 }
 
-std::string Cache::getCacheDir(const std::string &geometry_name) {
+std::string Cache::getCacheDir(const std::string& geometry_name) {
   // Extract the directory path from the geometry name
   size_t last_slash = geometry_name.find_last_of("/");
   std::string base_dir = (last_slash != std::string::npos)
@@ -143,7 +147,7 @@ std::string Cache::getCacheDir(const std::string &geometry_name) {
   return base_dir + "/cache";
 }
 
-bool Cache::createCacheDir(const std::string &geometry_name) {
+bool Cache::createCacheDir(const std::string& geometry_name) {
   std::string cache_dir = getCacheDir(geometry_name);
 
   try {

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/sys/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/lexers/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/tasking/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/sys/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/lexers/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/tasking/cmake_install.cmake")
 
 endif()
 

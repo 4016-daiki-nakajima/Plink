@@ -3,18 +3,20 @@
 #include <Eigen/LU>
 
 #include <iostream>
-#include "utils.h"
+#include "Utils/utils.h"
 
 #include <Geometry/BEM.h>
 
 using namespace Plink;
 
 Eigen::Matrix3d BEM::ComputeAddedMass(
-  const Eigen::MatrixXd &V,
-  const Eigen::MatrixXi &F,
-  const Eigen::MatrixXd &per_face_normals,
-  const Eigen::VectorXd &per_face_areas)
+  const Eigen::MatrixXd& V,
+  const Eigen::MatrixXi& F,
+  const Eigen::MatrixXd& per_face_normals,
+  const Eigen::VectorXd& per_face_areas)
 {
+    double FOUR_PI = 4.0 * M_PI;
+
     // exterior direct BEM
     int num_faces = F.rows();
 
@@ -45,14 +47,14 @@ Eigen::Matrix3d BEM::ComputeAddedMass(
             double Gval;
             double Hval;
             if (i == j) { // diagonal terms
-                Gval = 2.0 * std::sqrt(aj) / (3.0 * 4.0 * M_PI);
+                Gval = 2.0 * std::sqrt(aj) / (3.0 * FOUR_PI);
                 Hval = -0.5;
             } else {
                 Eigen::Vector3d r = xi - yj;
                 double rlen = r.norm();
 
-                Gval =  aj / (4.0 * M_PI * rlen);
-                Hval = -aj * (r.dot(nj)) / (4.0 * M_PI * rlen * rlen * rlen);
+                Gval =  aj / (FOUR_PI * rlen);
+                Hval = -aj * (r.dot(nj)) / (FOUR_PI * rlen * rlen * rlen);
             }
             G(i,j) = Gval;
             H(i,j) = Hval;

@@ -1,5 +1,5 @@
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/predicates.cxx \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/predicates.cxx \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -222,7 +222,7 @@ _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/rounding_functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_string.h \

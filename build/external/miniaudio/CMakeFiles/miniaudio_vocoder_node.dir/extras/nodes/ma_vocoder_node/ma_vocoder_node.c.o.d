@@ -1,7 +1,7 @@
 external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder_node/ma_vocoder_node.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_vocoder_node/ma_vocoder_node.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_vocoder_node/ma_vocoder_node.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_vocoder_node/../../../miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_vocoder_node/ma_vocoder_node.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_vocoder_node/ma_vocoder_node.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_vocoder_node/../../../miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -69,7 +69,7 @@ external/miniaudio/CMakeFiles/miniaudio_vocoder_node.dir/extras/nodes/ma_vocoder
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_vocoder_node/voclib.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_vocoder_node/voclib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \

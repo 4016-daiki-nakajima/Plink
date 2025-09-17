@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/embree-build/CMakeFiles/post_package_notarize.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/post_package_notarize.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/post_package_notarize.dir/rule
 .PHONY : _deps/embree-build/CMakeFiles/post_package_notarize.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ post_package_notarize: _deps/embree-build/CMakeFiles/post_package_notarize.dir/r
 
 # fast build rule for target.
 post_package_notarize/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/post_package_notarize.dir/build.make _deps/embree-build/CMakeFiles/post_package_notarize.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/post_package_notarize.dir/build.make _deps/embree-build/CMakeFiles/post_package_notarize.dir/build
 .PHONY : post_package_notarize/fast
 
 # Convenience name for target.
 _deps/embree-build/CMakeFiles/build.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/build.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/build.dir/rule
 .PHONY : _deps/embree-build/CMakeFiles/build.dir/rule
 
 # Convenience name for target.
@@ -206,12 +206,12 @@ build: _deps/embree-build/CMakeFiles/build.dir/rule
 
 # fast build rule for target.
 build/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/build.dir/build.make _deps/embree-build/CMakeFiles/build.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/build.dir/build.make _deps/embree-build/CMakeFiles/build.dir/build
 .PHONY : build/fast
 
 # Convenience name for target.
 _deps/embree-build/CMakeFiles/test_package.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/test_package.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/test_package.dir/rule
 .PHONY : _deps/embree-build/CMakeFiles/test_package.dir/rule
 
 # Convenience name for target.
@@ -220,12 +220,12 @@ test_package: _deps/embree-build/CMakeFiles/test_package.dir/rule
 
 # fast build rule for target.
 test_package/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/test_package.dir/build.make _deps/embree-build/CMakeFiles/test_package.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/test_package.dir/build.make _deps/embree-build/CMakeFiles/test_package.dir/build
 .PHONY : test_package/fast
 
 # Convenience name for target.
 _deps/embree-build/CMakeFiles/test_integration.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/test_integration.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/test_integration.dir/rule
 .PHONY : _deps/embree-build/CMakeFiles/test_integration.dir/rule
 
 # Convenience name for target.
@@ -234,12 +234,12 @@ test_integration: _deps/embree-build/CMakeFiles/test_integration.dir/rule
 
 # fast build rule for target.
 test_integration/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/test_integration.dir/build.make _deps/embree-build/CMakeFiles/test_integration.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/test_integration.dir/build.make _deps/embree-build/CMakeFiles/test_integration.dir/build
 .PHONY : test_integration/fast
 
 # Convenience name for target.
 _deps/embree-build/CMakeFiles/uninstall.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/uninstall.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/CMakeFiles/uninstall.dir/rule
 .PHONY : _deps/embree-build/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -248,7 +248,7 @@ uninstall: _deps/embree-build/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/uninstall.dir/build.make _deps/embree-build/CMakeFiles/uninstall.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/CMakeFiles/uninstall.dir/build.make _deps/embree-build/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -281,6 +281,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

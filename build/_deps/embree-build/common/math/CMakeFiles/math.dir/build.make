@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include _deps/embree-build/common/math/CMakeFiles/math.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/embree-build/common/math/CMakeFiles/math.dir/flags.make
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o: _deps/embree-build/common/math/CMakeFiles/math.dir/flags.make
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o: _deps/embree-src/common/math/constants.cpp
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o: _deps/embree-build/common/math/CMakeFiles/math.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o -MF CMakeFiles/math.dir/constants.cpp.o.d -o CMakeFiles/math.dir/constants.cpp.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o -MF CMakeFiles/math.dir/constants.cpp.o.d -o CMakeFiles/math.dir/constants.cpp.o -c /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/constants.cpp
 
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/math.dir/constants.cpp.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/constants.cpp > CMakeFiles/math.dir/constants.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/constants.cpp > CMakeFiles/math.dir/constants.cpp.i
 
 _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/math.dir/constants.cpp.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math/constants.cpp -o CMakeFiles/math.dir/constants.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math/constants.cpp -o CMakeFiles/math.dir/constants.cpp.s
 
 # Object files for target math
 math_OBJECTS = \
@@ -93,19 +93,19 @@ math_EXTERNAL_OBJECTS =
 _deps/embree-build/libmath.a: _deps/embree-build/common/math/CMakeFiles/math.dir/constants.cpp.o
 _deps/embree-build/libmath.a: _deps/embree-build/common/math/CMakeFiles/math.dir/build.make
 _deps/embree-build/libmath.a: _deps/embree-build/common/math/CMakeFiles/math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libmath.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libmath.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/embree-build/common/math/CMakeFiles/math.dir/build: _deps/embree-build/libmath.a
 .PHONY : _deps/embree-build/common/math/CMakeFiles/math.dir/build
 
 _deps/embree-build/common/math/CMakeFiles/math.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math && $(CMAKE_COMMAND) -P CMakeFiles/math.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/common/math/CMakeFiles/math.dir/clean
 
 _deps/embree-build/common/math/CMakeFiles/math.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/math /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/math/CMakeFiles/math.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/math /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/math/CMakeFiles/math.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/common/math/CMakeFiles/math.dir/depend
 

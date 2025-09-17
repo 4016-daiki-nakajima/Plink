@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-src"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-src"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/tmp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-subbuild/libigl_imgui_fonts-populate-prefix/src/libigl_imgui_fonts-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

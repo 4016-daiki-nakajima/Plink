@@ -1,9 +1,9 @@
 _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/taskschedulerinternal.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_config.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_common.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/taskschedulerinternal.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/taskschedulerinternal.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_config.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -104,14 +104,14 @@ _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_device.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_buffer.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_ray.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_geometry.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_quaternion.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_scene.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_builder.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_device.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_buffer.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_ray.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_geometry.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_quaternion.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_scene.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../../include/embree4/rtcore_builder.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/version \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
@@ -830,35 +830,35 @@ _deps/embree-build/common/tasking/CMakeFiles/tasking.dir/taskschedulerinternal.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/alloc.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/barrier.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/../simd/arm/sse2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/barrier.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/../simd/arm/sse2neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/OSCacheControl.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/../simd/arm/avx2neon.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/sysinfo.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/atomic.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/thread.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/mutex.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/vector.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/condition.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../sys/ref.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/range.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../sys/platform.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../math/emath.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../math/../sys/platform.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../math/../sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../math/constants.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/../simd/arm/avx2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/sysinfo.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/atomic.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/thread.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/mutex.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/vector.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/condition.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../sys/ref.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/range.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../math/emath.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../math/../sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../math/../sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../math/constants.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/float.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/../math/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/../math/../simd/arm/emulation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/list \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/tasking/../math/emath.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/tasking/../math/emath.h

@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Utility rule file for igl_core.
 
@@ -74,10 +74,10 @@ external/libigl/CMakeFiles/igl_core.dir/build: igl_core
 .PHONY : external/libigl/CMakeFiles/igl_core.dir/build
 
 external/libigl/CMakeFiles/igl_core.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/libigl && $(CMAKE_COMMAND) -P CMakeFiles/igl_core.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/libigl && $(CMAKE_COMMAND) -P CMakeFiles/igl_core.dir/cmake_clean.cmake
 .PHONY : external/libigl/CMakeFiles/igl_core.dir/clean
 
 external/libigl/CMakeFiles/igl_core.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/external/libigl /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/libigl /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/libigl/CMakeFiles/igl_core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/external/libigl /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/external/libigl /Users/daiki/Documents/Stanford/Research/Plink/build/external/libigl/CMakeFiles/igl_core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/libigl/CMakeFiles/igl_core.dir/depend
 

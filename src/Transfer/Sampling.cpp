@@ -1,5 +1,5 @@
 #include "Transfer/Sampling.h"
-#include "FEM.h" 
+#include "Geometry/FEM.h" 
 #include <random>
 #include <algorithm>
 #include <igl/offset_surface.h>

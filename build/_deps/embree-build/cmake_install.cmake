@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,70 +38,70 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/include/embree4")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/include/embree4")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/man/man3")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man" TYPE DIRECTORY FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/man/man3")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/LICENSE.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/LICENSE.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/CHANGELOG.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/CHANGELOG.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/README.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/readme.pdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/readme.pdf")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/third-party-programs.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/third-party-programs.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/third-party-programs-TBB.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/third-party-programs-TBB.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/third-party-programs-OIDN.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/third-party-programs-OIDN.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/third-party-programs-DPCPP.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/third-party-programs-DPCPP.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SimpleModal" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/third-party-programs-oneAPI-DPCPP.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/Plink" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/third-party-programs-oneAPI-DPCPP.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/embree-vars.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/embree-vars.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "lib" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/embree-vars.csh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/embree-vars.csh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE RENAME "embree-config.cmake" FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/embree-config-install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE RENAME "embree-config.cmake" FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/embree-config-install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/embree-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/embree-4.4.0" TYPE FILE FILES "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/embree-config-version.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/kernels/cmake_install.cmake")
-  include("/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/tests/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/kernels/cmake_install.cmake")
+  include("/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/tests/cmake_install.cmake")
 
 endif()
 

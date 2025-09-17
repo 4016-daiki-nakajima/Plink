@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/predicates.cxx" "_deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o" "gcc" "_deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o.d"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.cxx" "_deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o" "gcc" "_deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/predicates.cxx" "_deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o" "gcc" "_deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.cxx" "_deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o" "gcc" "_deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

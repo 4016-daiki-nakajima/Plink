@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/lexers//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/lexers//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/rule
 .PHONY : _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ lexers: _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/rule
 
 # fast build rule for target.
 lexers/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build
 .PHONY : lexers/fast
 
 stringstream.o: stringstream.cpp.o
@@ -200,7 +200,7 @@ stringstream.o: stringstream.cpp.o
 
 # target to build an object file
 stringstream.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.o
 .PHONY : stringstream.cpp.o
 
 stringstream.i: stringstream.cpp.i
@@ -208,7 +208,7 @@ stringstream.i: stringstream.cpp.i
 
 # target to preprocess a source file
 stringstream.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.i
 .PHONY : stringstream.cpp.i
 
 stringstream.s: stringstream.cpp.s
@@ -216,7 +216,7 @@ stringstream.s: stringstream.cpp.s
 
 # target to generate assembly for a file
 stringstream.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/stringstream.cpp.s
 .PHONY : stringstream.cpp.s
 
 tokenstream.o: tokenstream.cpp.o
@@ -224,7 +224,7 @@ tokenstream.o: tokenstream.cpp.o
 
 # target to build an object file
 tokenstream.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.o
 .PHONY : tokenstream.cpp.o
 
 tokenstream.i: tokenstream.cpp.i
@@ -232,7 +232,7 @@ tokenstream.i: tokenstream.cpp.i
 
 # target to preprocess a source file
 tokenstream.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.i
 .PHONY : tokenstream.cpp.i
 
 tokenstream.s: tokenstream.cpp.s
@@ -240,7 +240,7 @@ tokenstream.s: tokenstream.cpp.s
 
 # target to generate assembly for a file
 tokenstream.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/build.make _deps/embree-build/common/lexers/CMakeFiles/lexers.dir/tokenstream.cpp.s
 .PHONY : tokenstream.cpp.s
 
 # Help Target
@@ -275,6 +275,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

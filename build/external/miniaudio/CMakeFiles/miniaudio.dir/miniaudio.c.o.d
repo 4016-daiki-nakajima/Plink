@@ -1,6 +1,6 @@
 external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.c \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.c \
+  /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \

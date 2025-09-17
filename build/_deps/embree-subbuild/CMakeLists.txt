@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(embree-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/embree/embree.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v4.4.0" "GIT_SHALLOW" "TRUE"
-                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src"
-                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build"
+                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src"
+                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

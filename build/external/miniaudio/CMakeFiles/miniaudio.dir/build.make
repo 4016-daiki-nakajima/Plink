@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include external/miniaudio/CMakeFiles/miniaudio.dir/depend.make
@@ -70,18 +70,18 @@ include external/miniaudio/CMakeFiles/miniaudio.dir/progress.make
 include external/miniaudio/CMakeFiles/miniaudio.dir/flags.make
 
 external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o: external/miniaudio/CMakeFiles/miniaudio.dir/flags.make
-external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o: /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.c
+external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o: /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.c
 external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o: external/miniaudio/CMakeFiles/miniaudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o -MF CMakeFiles/miniaudio.dir/miniaudio.c.o.d -o CMakeFiles/miniaudio.dir/miniaudio.c.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o -MF CMakeFiles/miniaudio.dir/miniaudio.c.o.d -o CMakeFiles/miniaudio.dir/miniaudio.c.o -c /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.c
 
 external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/miniaudio.dir/miniaudio.c.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.c > CMakeFiles/miniaudio.dir/miniaudio.c.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.c > CMakeFiles/miniaudio.dir/miniaudio.c.i
 
 external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/miniaudio.dir/miniaudio.c.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/miniaudio.c -o CMakeFiles/miniaudio.dir/miniaudio.c.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/miniaudio.c -o CMakeFiles/miniaudio.dir/miniaudio.c.s
 
 # Object files for target miniaudio
 miniaudio_OBJECTS = \
@@ -93,19 +93,19 @@ miniaudio_EXTERNAL_OBJECTS =
 external/miniaudio/libminiaudio.a: external/miniaudio/CMakeFiles/miniaudio.dir/miniaudio.c.o
 external/miniaudio/libminiaudio.a: external/miniaudio/CMakeFiles/miniaudio.dir/build.make
 external/miniaudio/libminiaudio.a: external/miniaudio/CMakeFiles/miniaudio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libminiaudio.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniaudio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libminiaudio.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/miniaudio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/miniaudio/CMakeFiles/miniaudio.dir/build: external/miniaudio/libminiaudio.a
 .PHONY : external/miniaudio/CMakeFiles/miniaudio.dir/build
 
 external/miniaudio/CMakeFiles/miniaudio.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio && $(CMAKE_COMMAND) -P CMakeFiles/miniaudio.dir/cmake_clean.cmake
 .PHONY : external/miniaudio/CMakeFiles/miniaudio.dir/clean
 
 external/miniaudio/CMakeFiles/miniaudio.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio /Users/daiki/Documents/Stanford/Research/SimpleModal/build/external/miniaudio/CMakeFiles/miniaudio.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio /Users/daiki/Documents/Stanford/Research/Plink/build/external/miniaudio/CMakeFiles/miniaudio.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/miniaudio/CMakeFiles/miniaudio.dir/depend
 

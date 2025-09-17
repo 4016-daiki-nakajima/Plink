@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild
 
 # Utility rule file for imguizmo-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/imguizmo-populate-complete: imguizmo-populate-prefix/src/imguizmo-pop
 CMakeFiles/imguizmo-populate-complete: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build
 CMakeFiles/imguizmo-populate-complete: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install
 CMakeFiles/imguizmo-populate-complete: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'imguizmo-populate'"
-	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate-complete
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'imguizmo-populate'"
+	/opt/anaconda3/bin/cmake -E make_directory /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate-complete
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-done
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update:
 .PHONY : imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure: imguizmo-populate-prefix/tmp/imguizmo-populate-cfgcmd.txt
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-configure
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-gitinfo.txt
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitclone.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'imguizmo-populate'"
-	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-mkdirs.cmake
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'imguizmo-populate'"
+	/opt/anaconda3/bin/cmake -Dcfgdir= -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-mkdirs.cmake
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-mkdir
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch-info.txt
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'imguizmo-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'imguizmo-populate'"
 	/opt/anaconda3/bin/cmake -E echo_append
-	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch
+	/opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-patch
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update:
 .PHONY : imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-test: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E echo_append
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build && /opt/anaconda3/bin/cmake -E touch /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-test
 
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update: imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update-info.txt
 imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-update: imguizmo-populate-prefix/src/imguizmo-populate-stamp/imguizmo-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'imguizmo-populate'"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'imguizmo-populate'"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-src && /opt/anaconda3/bin/cmake -Dcan_fetch=YES -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp/imguizmo-populate-gitupdate.cmake
 
 imguizmo-populate: CMakeFiles/imguizmo-populate
 imguizmo-populate: CMakeFiles/imguizmo-populate-complete
@@ -154,6 +154,6 @@ CMakeFiles/imguizmo-populate.dir/clean:
 .PHONY : CMakeFiles/imguizmo-populate.dir/clean
 
 CMakeFiles/imguizmo-populate.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/CMakeFiles/imguizmo-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/imguizmo-populate.dir/depend
 

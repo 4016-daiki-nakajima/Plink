@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imconfig.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -115,8 +115,8 @@ CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/glfw-src/include/GLFW/glfw3.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/backends/imgui_impl_glfw.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/glfw-src/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \

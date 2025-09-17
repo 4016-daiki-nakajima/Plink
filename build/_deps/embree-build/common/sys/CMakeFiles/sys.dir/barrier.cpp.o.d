@@ -1,8 +1,8 @@
 _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/barrier.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/barrier.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/intrinsics.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/barrier.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/barrier.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/intrinsics.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -819,20 +819,20 @@ _deps/embree-build/common/sys/CMakeFiles/sys.dir/barrier.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/../simd/arm/emulation.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/../simd/arm/sse2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/../simd/arm/emulation.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/../simd/arm/sse2neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/OSCacheControl.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/../simd/arm/avx2neon.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/sysinfo.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/atomic.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/condition.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/mutex.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/regression.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/thread.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/alloc.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/../simd/arm/avx2neon.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/sysinfo.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/atomic.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/condition.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/mutex.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/regression.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/thread.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/sys/vector.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/sys/vector.h

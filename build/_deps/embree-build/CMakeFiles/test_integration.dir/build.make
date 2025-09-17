@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Utility rule file for test_integration.
 
@@ -67,10 +67,10 @@ include _deps/embree-build/CMakeFiles/test_integration.dir/compiler_depend.make
 include _deps/embree-build/CMakeFiles/test_integration.dir/progress.make
 
 _deps/embree-build/CMakeFiles/test_integration:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -DWHAT="UNPACK" -DPACKAGE_BASENAME=embree-4.4.0.arm64.macosx -DPACKAGE_EXT=zip -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/scripts/package_test.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/tests/integration/test_embree_release && /opt/anaconda3/bin/cmake -B build --preset -Dembree_DIR="/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/embree_install/lib/cmake/embree-4.4.0"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/tests/integration/test_embree_release && /opt/anaconda3/bin/cmake --build build --config Release
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/tests/integration/test_embree_release && ./build/test
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -DWHAT="UNPACK" -DPACKAGE_BASENAME=embree-4.4.0.arm64.macosx -DPACKAGE_EXT=zip -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/scripts/package_test.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/tests/integration/test_embree_release && /opt/anaconda3/bin/cmake -B build --preset -Dembree_DIR="/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/embree_install/lib/cmake/embree-4.4.0"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/tests/integration/test_embree_release && /opt/anaconda3/bin/cmake --build build --config Release
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/tests/integration/test_embree_release && ./build/test
 
 test_integration: _deps/embree-build/CMakeFiles/test_integration
 test_integration: _deps/embree-build/CMakeFiles/test_integration.dir/build.make
@@ -81,10 +81,10 @@ _deps/embree-build/CMakeFiles/test_integration.dir/build: test_integration
 .PHONY : _deps/embree-build/CMakeFiles/test_integration.dir/build
 
 _deps/embree-build/CMakeFiles/test_integration.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/test_integration.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/test_integration.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/CMakeFiles/test_integration.dir/clean
 
 _deps/embree-build/CMakeFiles/test_integration.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/CMakeFiles/test_integration.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/CMakeFiles/test_integration.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/CMakeFiles/test_integration.dir/depend
 

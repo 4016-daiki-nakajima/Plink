@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(libigl_imgui_fonts-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libigl/libigl-imgui.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "7e1053e750b0f4c129b046f4e455243cb7f804f3"
-                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-src"
-                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/libigl_imgui_fonts-build"
+                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-src"
+                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/libigl_imgui_fonts-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

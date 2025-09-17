@@ -1,5 +1,5 @@
-#include "forces.h"
-#include "utils.h"
+#include "Modal/forces.h"
+#include "Utils/utils.h"
 
 using namespace SimpleModal;
 

@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-src"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-build"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src"
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-src"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-build"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/tmp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src"
+  "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-subbuild/imguizmo-populate-prefix/src/imguizmo-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

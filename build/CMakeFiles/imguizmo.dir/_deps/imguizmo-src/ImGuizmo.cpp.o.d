@@ -1,7 +1,7 @@
 CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-src/ImGuizmo.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imconfig.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-src/ImGuizmo.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -115,7 +115,7 @@ CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui_internal.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui_internal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_stdio.h \
@@ -249,5 +249,5 @@ CMakeFiles/imguizmo.dir/_deps/imguizmo-src/ImGuizmo.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/syslimits.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imstb_textedit.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imguizmo-src/ImGuizmo.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imstb_textedit.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imguizmo-src/ImGuizmo.h

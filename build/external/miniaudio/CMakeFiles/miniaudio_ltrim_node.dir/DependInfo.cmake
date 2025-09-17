@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.c" "external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o" "gcc" "external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/nodes/ma_ltrim_node/ma_ltrim_node.c" "external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o" "gcc" "external/miniaudio/CMakeFiles/miniaudio_ltrim_node.dir/extras/nodes/ma_ltrim_node/ma_ltrim_node.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

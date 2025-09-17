@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(tetgen-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/libigl/tetgen.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "e05aca7df74e3f531bc35733ed87d36d437266c5"
-                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src"
-                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build"
+                    SOURCE_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src"
+                    BINARY_DIR          "/Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

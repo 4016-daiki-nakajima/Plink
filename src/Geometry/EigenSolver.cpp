@@ -1,5 +1,5 @@
-#include "EigenSolver.h"
-#include "utils.h"
+#include "Geometry/EigenSolver.h"
+#include "Utils/utils.h"
 #include <Eigen/Core>
 #include <Eigen/SparseCore>
 #include <Eigen/SparseCholesky>

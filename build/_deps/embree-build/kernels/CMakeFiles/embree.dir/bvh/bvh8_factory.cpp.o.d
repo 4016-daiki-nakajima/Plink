@@ -1,7 +1,7 @@
 _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/bvh/bvh8_factory.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/bvh/../common/isa.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/bvh/../common/../../common/sys/platform.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/bvh/bvh8_factory.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/bvh/../common/isa.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/bvh/../common/../../common/sys/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -818,4 +818,4 @@ _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/kernels/bvh/../common/../../common/sys/sysinfo.h
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/kernels/bvh/../common/../../common/sys/sysinfo.h

@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imconfig.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \
@@ -115,7 +115,7 @@ CMakeFiles/imgui.dir/_deps/imgui-src/misc/cpp/imgui_stdlib.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/misc/cpp/imgui_stdlib.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/misc/cpp/imgui_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/comp.h \

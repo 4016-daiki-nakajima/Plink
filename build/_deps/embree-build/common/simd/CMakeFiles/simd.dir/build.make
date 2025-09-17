@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include _deps/embree-build/common/simd/CMakeFiles/simd.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/embree-build/common/simd/CMakeFiles/simd.dir/flags.make
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o: _deps/embree-build/common/simd/CMakeFiles/simd.dir/flags.make
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o: _deps/embree-src/common/simd/sse.cpp
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o: _deps/embree-build/common/simd/CMakeFiles/simd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o -MF CMakeFiles/simd.dir/sse.cpp.o.d -o CMakeFiles/simd.dir/sse.cpp.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/sse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o -MF CMakeFiles/simd.dir/sse.cpp.o.d -o CMakeFiles/simd.dir/sse.cpp.o -c /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/sse.cpp
 
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simd.dir/sse.cpp.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/sse.cpp > CMakeFiles/simd.dir/sse.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/sse.cpp > CMakeFiles/simd.dir/sse.cpp.i
 
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simd.dir/sse.cpp.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd/sse.cpp -o CMakeFiles/simd.dir/sse.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd/sse.cpp -o CMakeFiles/simd.dir/sse.cpp.s
 
 # Object files for target simd
 simd_OBJECTS = \
@@ -93,19 +93,19 @@ simd_EXTERNAL_OBJECTS =
 _deps/embree-build/libsimd.a: _deps/embree-build/common/simd/CMakeFiles/simd.dir/sse.cpp.o
 _deps/embree-build/libsimd.a: _deps/embree-build/common/simd/CMakeFiles/simd.dir/build.make
 _deps/embree-build/libsimd.a: _deps/embree-build/common/simd/CMakeFiles/simd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libsimd.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -P CMakeFiles/simd.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../libsimd.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -P CMakeFiles/simd.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/build: _deps/embree-build/libsimd.a
 .PHONY : _deps/embree-build/common/simd/CMakeFiles/simd.dir/build
 
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -P CMakeFiles/simd.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd && $(CMAKE_COMMAND) -P CMakeFiles/simd.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/common/simd/CMakeFiles/simd.dir/clean
 
 _deps/embree-build/common/simd/CMakeFiles/simd.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src/common/simd /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/common/simd/CMakeFiles/simd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src/common/simd /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/common/simd/CMakeFiles/simd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/common/simd/CMakeFiles/simd.dir/depend
 

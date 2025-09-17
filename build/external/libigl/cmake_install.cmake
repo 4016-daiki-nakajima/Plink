@@ -1,4 +1,4 @@
-# Install script for directory: /Users/daiki/Documents/Stanford/Research/SimpleModal/external/libigl
+# Install script for directory: /Users/daiki/Documents/Stanford/Research/Plink/external/libigl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

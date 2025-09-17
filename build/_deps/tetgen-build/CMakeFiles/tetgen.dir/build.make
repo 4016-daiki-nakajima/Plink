@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Include any dependencies generated for this target.
 include _deps/tetgen-build/CMakeFiles/tetgen.dir/depend.make
@@ -72,30 +72,30 @@ include _deps/tetgen-build/CMakeFiles/tetgen.dir/flags.make
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o: _deps/tetgen-build/CMakeFiles/tetgen.dir/flags.make
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o: _deps/tetgen-src/tetgen.cxx
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o: _deps/tetgen-build/CMakeFiles/tetgen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o -MF CMakeFiles/tetgen.dir/tetgen.cxx.o.d -o CMakeFiles/tetgen.dir/tetgen.cxx.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o -MF CMakeFiles/tetgen.dir/tetgen.cxx.o.d -o CMakeFiles/tetgen.dir/tetgen.cxx.o -c /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.cxx
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetgen.dir/tetgen.cxx.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.cxx > CMakeFiles/tetgen.dir/tetgen.cxx.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.cxx > CMakeFiles/tetgen.dir/tetgen.cxx.i
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetgen.dir/tetgen.cxx.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.cxx -o CMakeFiles/tetgen.dir/tetgen.cxx.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.cxx -o CMakeFiles/tetgen.dir/tetgen.cxx.s
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o: _deps/tetgen-build/CMakeFiles/tetgen.dir/flags.make
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o: _deps/tetgen-src/predicates.cxx
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o: _deps/tetgen-build/CMakeFiles/tetgen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o -MF CMakeFiles/tetgen.dir/predicates.cxx.o.d -o CMakeFiles/tetgen.dir/predicates.cxx.o -c /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/predicates.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o -MF CMakeFiles/tetgen.dir/predicates.cxx.o.d -o CMakeFiles/tetgen.dir/predicates.cxx.o -c /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/predicates.cxx
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetgen.dir/predicates.cxx.i"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/predicates.cxx > CMakeFiles/tetgen.dir/predicates.cxx.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/predicates.cxx > CMakeFiles/tetgen.dir/predicates.cxx.i
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetgen.dir/predicates.cxx.s"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/predicates.cxx -o CMakeFiles/tetgen.dir/predicates.cxx.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/predicates.cxx -o CMakeFiles/tetgen.dir/predicates.cxx.s
 
 # Object files for target tetgen
 tetgen_OBJECTS = \
@@ -109,19 +109,19 @@ _deps/tetgen-build/libtetgen.a: _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.
 _deps/tetgen-build/libtetgen.a: _deps/tetgen-build/CMakeFiles/tetgen.dir/predicates.cxx.o
 _deps/tetgen-build/libtetgen.a: _deps/tetgen-build/CMakeFiles/tetgen.dir/build.make
 _deps/tetgen-build/libtetgen.a: _deps/tetgen-build/CMakeFiles/tetgen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libtetgen.a"
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && $(CMAKE_COMMAND) -P CMakeFiles/tetgen.dir/cmake_clean_target.cmake
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tetgen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libtetgen.a"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && $(CMAKE_COMMAND) -P CMakeFiles/tetgen.dir/cmake_clean_target.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tetgen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/tetgen-build/CMakeFiles/tetgen.dir/build: _deps/tetgen-build/libtetgen.a
 .PHONY : _deps/tetgen-build/CMakeFiles/tetgen.dir/build
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build && $(CMAKE_COMMAND) -P CMakeFiles/tetgen.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build && $(CMAKE_COMMAND) -P CMakeFiles/tetgen.dir/cmake_clean.cmake
 .PHONY : _deps/tetgen-build/CMakeFiles/tetgen.dir/clean
 
 _deps/tetgen-build/CMakeFiles/tetgen.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-build/CMakeFiles/tetgen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-build/CMakeFiles/tetgen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/tetgen-build/CMakeFiles/tetgen.dir/depend
 

@@ -53,10 +53,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include _deps/embree-build/CMakeFiles/uninstall.dir/compiler_depend.make
 include _deps/embree-build/CMakeFiles/uninstall.dir/progress.make
 
 _deps/embree-build/CMakeFiles/uninstall:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/uninstall.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && /opt/anaconda3/bin/cmake -P /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/uninstall.cmake
 
 uninstall: _deps/embree-build/CMakeFiles/uninstall
 uninstall: _deps/embree-build/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ _deps/embree-build/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : _deps/embree-build/CMakeFiles/uninstall.dir/build
 
 _deps/embree-build/CMakeFiles/uninstall.dir/clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : _deps/embree-build/CMakeFiles/uninstall.dir/clean
 
 _deps/embree-build/CMakeFiles/uninstall.dir/depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/SimpleModal /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/SimpleModal/build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/daiki/Documents/Stanford/Research/Plink /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-src /Users/daiki/Documents/Stanford/Research/Plink/build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/embree-build/CMakeFiles/uninstall.dir/depend
 

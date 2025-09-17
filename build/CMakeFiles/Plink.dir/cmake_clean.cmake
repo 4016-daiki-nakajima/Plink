@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Plink.dir/external/glad/glad.c.o"
+  "CMakeFiles/Plink.dir/external/glad/glad.c.o.d"
+  "CMakeFiles/Plink.dir/main.cpp.o"
+  "CMakeFiles/Plink.dir/main.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Audio/AudioManager.cpp.o"
+  "CMakeFiles/Plink.dir/src/Audio/AudioManager.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/BEM.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/BEM.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/Cache.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/Cache.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/EigenSolver.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/EigenSolver.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/FEM.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/FEM.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/IO.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/IO.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Geometry/TetMesh.cpp.o"
+  "CMakeFiles/Plink.dir/src/Geometry/TetMesh.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Modal/forces.cpp.o"
+  "CMakeFiles/Plink.dir/src/Modal/forces.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Modal/modalIntegratorIIR.cpp.o"
+  "CMakeFiles/Plink.dir/src/Modal/modalIntegratorIIR.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Transfer/EquivalentSources.cpp.o"
+  "CMakeFiles/Plink.dir/src/Transfer/EquivalentSources.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Transfer/Power.cpp.o"
+  "CMakeFiles/Plink.dir/src/Transfer/Power.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Transfer/Sampling.cpp.o"
+  "CMakeFiles/Plink.dir/src/Transfer/Sampling.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Transfer/SphericalHarmonics.cpp.o"
+  "CMakeFiles/Plink.dir/src/Transfer/SphericalHarmonics.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Utils/colormap.cpp.o"
+  "CMakeFiles/Plink.dir/src/Utils/colormap.cpp.o.d"
+  "CMakeFiles/Plink.dir/src/Utils/utils.cpp.o"
+  "CMakeFiles/Plink.dir/src/Utils/utils.cpp.o.d"
+  "Plink"
+  "Plink.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/Plink.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

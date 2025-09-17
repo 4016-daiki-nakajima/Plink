@@ -11,9 +11,9 @@ namespace SimpleModal
     {
     public:
         TetMesh() {};
-        TetMesh(const Eigen::MatrixXd &TV, const Eigen::MatrixXi &TT, const Eigen::MatrixXi &TF);
+        TetMesh(const Eigen::MatrixXd& TV, const Eigen::MatrixXi& TT, const Eigen::MatrixXi& TF);
 
-        static TetMesh getTetMeshFromSurfaceMesh(const std::string &surface_mesh_path);
+        static TetMesh getTetMeshFromSurfaceMesh(const std::string& surface_mesh_path);
 
         // Tetrahedralized interior
         Eigen::MatrixXd TV;

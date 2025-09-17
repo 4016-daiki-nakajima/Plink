@@ -1,7 +1,7 @@
-#include "FEM.h"
+#include "Geometry/FEM.h"
 #include <Eigen/Dense>
 #include <Eigen/Sparse>
-#include "utils.h"
+#include "Utils/utils.h"
 
 using namespace SimpleModal;
 // Helper function to compute the volume of a tetrahedron

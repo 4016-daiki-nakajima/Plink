@@ -1,6 +1,6 @@
 _deps/tetgen-build/CMakeFiles/tetgen.dir/tetgen.cxx.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.cxx \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/tetgen-src/tetgen.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.cxx \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/tetgen-src/tetgen.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \

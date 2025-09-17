@@ -57,10 +57,10 @@ RM = /opt/anaconda3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal
+CMAKE_SOURCE_DIR = /Users/daiki/Documents/Stanford/Research/Plink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
+CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/Plink/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/daiki/Documents/Stanford/Research/SimpleModal/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CPackSourceConfig.cmake
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && /opt/anaconda3/bin/cpack --config ./CPackSourceConfig.cmake /Users/daiki/Documents/Stanford/Research/Plink/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/embree-build/kernels//CMakeFiles/progress.marks
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/SimpleModal/build/CMakeFiles 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/embree-build/kernels//CMakeFiles/progress.marks
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/daiki/Documents/Stanford/Research/Plink/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/clean
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/preinstall
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/embree-build/kernels/CMakeFiles/embree.dir/rule:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/CMakeFiles/embree.dir/rule
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/embree-build/kernels/CMakeFiles/embree.dir/rule
 .PHONY : _deps/embree-build/kernels/CMakeFiles/embree.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ embree: _deps/embree-build/kernels/CMakeFiles/embree.dir/rule
 
 # fast build rule for target.
 embree/fast:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/build
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/build
 .PHONY : embree/fast
 
 builders/primrefgen.o: builders/primrefgen.cpp.o
@@ -200,7 +200,7 @@ builders/primrefgen.o: builders/primrefgen.cpp.o
 
 # target to build an object file
 builders/primrefgen.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.o
 .PHONY : builders/primrefgen.cpp.o
 
 builders/primrefgen.i: builders/primrefgen.cpp.i
@@ -208,7 +208,7 @@ builders/primrefgen.i: builders/primrefgen.cpp.i
 
 # target to preprocess a source file
 builders/primrefgen.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.i
 .PHONY : builders/primrefgen.cpp.i
 
 builders/primrefgen.s: builders/primrefgen.cpp.s
@@ -216,7 +216,7 @@ builders/primrefgen.s: builders/primrefgen.cpp.s
 
 # target to generate assembly for a file
 builders/primrefgen.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/builders/primrefgen.cpp.s
 .PHONY : builders/primrefgen.cpp.s
 
 bvh/bvh.o: bvh/bvh.cpp.o
@@ -224,7 +224,7 @@ bvh/bvh.o: bvh/bvh.cpp.o
 
 # target to build an object file
 bvh/bvh.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.o
 .PHONY : bvh/bvh.cpp.o
 
 bvh/bvh.i: bvh/bvh.cpp.i
@@ -232,7 +232,7 @@ bvh/bvh.i: bvh/bvh.cpp.i
 
 # target to preprocess a source file
 bvh/bvh.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.i
 .PHONY : bvh/bvh.cpp.i
 
 bvh/bvh.s: bvh/bvh.cpp.s
@@ -240,7 +240,7 @@ bvh/bvh.s: bvh/bvh.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh.cpp.s
 .PHONY : bvh/bvh.cpp.s
 
 bvh/bvh4_factory.o: bvh/bvh4_factory.cpp.o
@@ -248,7 +248,7 @@ bvh/bvh4_factory.o: bvh/bvh4_factory.cpp.o
 
 # target to build an object file
 bvh/bvh4_factory.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.o
 .PHONY : bvh/bvh4_factory.cpp.o
 
 bvh/bvh4_factory.i: bvh/bvh4_factory.cpp.i
@@ -256,7 +256,7 @@ bvh/bvh4_factory.i: bvh/bvh4_factory.cpp.i
 
 # target to preprocess a source file
 bvh/bvh4_factory.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.i
 .PHONY : bvh/bvh4_factory.cpp.i
 
 bvh/bvh4_factory.s: bvh/bvh4_factory.cpp.s
@@ -264,7 +264,7 @@ bvh/bvh4_factory.s: bvh/bvh4_factory.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh4_factory.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh4_factory.cpp.s
 .PHONY : bvh/bvh4_factory.cpp.s
 
 bvh/bvh8_factory.o: bvh/bvh8_factory.cpp.o
@@ -272,7 +272,7 @@ bvh/bvh8_factory.o: bvh/bvh8_factory.cpp.o
 
 # target to build an object file
 bvh/bvh8_factory.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.o
 .PHONY : bvh/bvh8_factory.cpp.o
 
 bvh/bvh8_factory.i: bvh/bvh8_factory.cpp.i
@@ -280,7 +280,7 @@ bvh/bvh8_factory.i: bvh/bvh8_factory.cpp.i
 
 # target to preprocess a source file
 bvh/bvh8_factory.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.i
 .PHONY : bvh/bvh8_factory.cpp.i
 
 bvh/bvh8_factory.s: bvh/bvh8_factory.cpp.s
@@ -288,7 +288,7 @@ bvh/bvh8_factory.s: bvh/bvh8_factory.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh8_factory.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh8_factory.cpp.s
 .PHONY : bvh/bvh8_factory.cpp.s
 
 bvh/bvh_builder.o: bvh/bvh_builder.cpp.o
@@ -296,7 +296,7 @@ bvh/bvh_builder.o: bvh/bvh_builder.cpp.o
 
 # target to build an object file
 bvh/bvh_builder.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.o
 .PHONY : bvh/bvh_builder.cpp.o
 
 bvh/bvh_builder.i: bvh/bvh_builder.cpp.i
@@ -304,7 +304,7 @@ bvh/bvh_builder.i: bvh/bvh_builder.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.i
 .PHONY : bvh/bvh_builder.cpp.i
 
 bvh/bvh_builder.s: bvh/bvh_builder.cpp.s
@@ -312,7 +312,7 @@ bvh/bvh_builder.s: bvh/bvh_builder.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder.cpp.s
 .PHONY : bvh/bvh_builder.cpp.s
 
 bvh/bvh_builder_hair.o: bvh/bvh_builder_hair.cpp.o
@@ -320,7 +320,7 @@ bvh/bvh_builder_hair.o: bvh/bvh_builder_hair.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_hair.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.o
 .PHONY : bvh/bvh_builder_hair.cpp.o
 
 bvh/bvh_builder_hair.i: bvh/bvh_builder_hair.cpp.i
@@ -328,7 +328,7 @@ bvh/bvh_builder_hair.i: bvh/bvh_builder_hair.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_hair.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.i
 .PHONY : bvh/bvh_builder_hair.cpp.i
 
 bvh/bvh_builder_hair.s: bvh/bvh_builder_hair.cpp.s
@@ -336,7 +336,7 @@ bvh/bvh_builder_hair.s: bvh/bvh_builder_hair.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_hair.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair.cpp.s
 .PHONY : bvh/bvh_builder_hair.cpp.s
 
 bvh/bvh_builder_hair_mb.o: bvh/bvh_builder_hair_mb.cpp.o
@@ -344,7 +344,7 @@ bvh/bvh_builder_hair_mb.o: bvh/bvh_builder_hair_mb.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_hair_mb.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.o
 .PHONY : bvh/bvh_builder_hair_mb.cpp.o
 
 bvh/bvh_builder_hair_mb.i: bvh/bvh_builder_hair_mb.cpp.i
@@ -352,7 +352,7 @@ bvh/bvh_builder_hair_mb.i: bvh/bvh_builder_hair_mb.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_hair_mb.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.i
 .PHONY : bvh/bvh_builder_hair_mb.cpp.i
 
 bvh/bvh_builder_hair_mb.s: bvh/bvh_builder_hair_mb.cpp.s
@@ -360,7 +360,7 @@ bvh/bvh_builder_hair_mb.s: bvh/bvh_builder_hair_mb.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_hair_mb.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_hair_mb.cpp.s
 .PHONY : bvh/bvh_builder_hair_mb.cpp.s
 
 bvh/bvh_builder_morton.o: bvh/bvh_builder_morton.cpp.o
@@ -368,7 +368,7 @@ bvh/bvh_builder_morton.o: bvh/bvh_builder_morton.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_morton.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.o
 .PHONY : bvh/bvh_builder_morton.cpp.o
 
 bvh/bvh_builder_morton.i: bvh/bvh_builder_morton.cpp.i
@@ -376,7 +376,7 @@ bvh/bvh_builder_morton.i: bvh/bvh_builder_morton.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_morton.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.i
 .PHONY : bvh/bvh_builder_morton.cpp.i
 
 bvh/bvh_builder_morton.s: bvh/bvh_builder_morton.cpp.s
@@ -384,7 +384,7 @@ bvh/bvh_builder_morton.s: bvh/bvh_builder_morton.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_morton.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_morton.cpp.s
 .PHONY : bvh/bvh_builder_morton.cpp.s
 
 bvh/bvh_builder_sah.o: bvh/bvh_builder_sah.cpp.o
@@ -392,7 +392,7 @@ bvh/bvh_builder_sah.o: bvh/bvh_builder_sah.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_sah.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.o
 .PHONY : bvh/bvh_builder_sah.cpp.o
 
 bvh/bvh_builder_sah.i: bvh/bvh_builder_sah.cpp.i
@@ -400,7 +400,7 @@ bvh/bvh_builder_sah.i: bvh/bvh_builder_sah.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_sah.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.i
 .PHONY : bvh/bvh_builder_sah.cpp.i
 
 bvh/bvh_builder_sah.s: bvh/bvh_builder_sah.cpp.s
@@ -408,7 +408,7 @@ bvh/bvh_builder_sah.s: bvh/bvh_builder_sah.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_sah.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah.cpp.s
 .PHONY : bvh/bvh_builder_sah.cpp.s
 
 bvh/bvh_builder_sah_mb.o: bvh/bvh_builder_sah_mb.cpp.o
@@ -416,7 +416,7 @@ bvh/bvh_builder_sah_mb.o: bvh/bvh_builder_sah_mb.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_sah_mb.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.o
 .PHONY : bvh/bvh_builder_sah_mb.cpp.o
 
 bvh/bvh_builder_sah_mb.i: bvh/bvh_builder_sah_mb.cpp.i
@@ -424,7 +424,7 @@ bvh/bvh_builder_sah_mb.i: bvh/bvh_builder_sah_mb.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_sah_mb.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.i
 .PHONY : bvh/bvh_builder_sah_mb.cpp.i
 
 bvh/bvh_builder_sah_mb.s: bvh/bvh_builder_sah_mb.cpp.s
@@ -432,7 +432,7 @@ bvh/bvh_builder_sah_mb.s: bvh/bvh_builder_sah_mb.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_sah_mb.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_mb.cpp.s
 .PHONY : bvh/bvh_builder_sah_mb.cpp.s
 
 bvh/bvh_builder_sah_spatial.o: bvh/bvh_builder_sah_spatial.cpp.o
@@ -440,7 +440,7 @@ bvh/bvh_builder_sah_spatial.o: bvh/bvh_builder_sah_spatial.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_sah_spatial.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.o
 .PHONY : bvh/bvh_builder_sah_spatial.cpp.o
 
 bvh/bvh_builder_sah_spatial.i: bvh/bvh_builder_sah_spatial.cpp.i
@@ -448,7 +448,7 @@ bvh/bvh_builder_sah_spatial.i: bvh/bvh_builder_sah_spatial.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_sah_spatial.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.i
 .PHONY : bvh/bvh_builder_sah_spatial.cpp.i
 
 bvh/bvh_builder_sah_spatial.s: bvh/bvh_builder_sah_spatial.cpp.s
@@ -456,7 +456,7 @@ bvh/bvh_builder_sah_spatial.s: bvh/bvh_builder_sah_spatial.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_sah_spatial.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_sah_spatial.cpp.s
 .PHONY : bvh/bvh_builder_sah_spatial.cpp.s
 
 bvh/bvh_builder_subdiv.o: bvh/bvh_builder_subdiv.cpp.o
@@ -464,7 +464,7 @@ bvh/bvh_builder_subdiv.o: bvh/bvh_builder_subdiv.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_subdiv.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.o
 .PHONY : bvh/bvh_builder_subdiv.cpp.o
 
 bvh/bvh_builder_subdiv.i: bvh/bvh_builder_subdiv.cpp.i
@@ -472,7 +472,7 @@ bvh/bvh_builder_subdiv.i: bvh/bvh_builder_subdiv.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_subdiv.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.i
 .PHONY : bvh/bvh_builder_subdiv.cpp.i
 
 bvh/bvh_builder_subdiv.s: bvh/bvh_builder_subdiv.cpp.s
@@ -480,7 +480,7 @@ bvh/bvh_builder_subdiv.s: bvh/bvh_builder_subdiv.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_subdiv.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_subdiv.cpp.s
 .PHONY : bvh/bvh_builder_subdiv.cpp.s
 
 bvh/bvh_builder_twolevel.o: bvh/bvh_builder_twolevel.cpp.o
@@ -488,7 +488,7 @@ bvh/bvh_builder_twolevel.o: bvh/bvh_builder_twolevel.cpp.o
 
 # target to build an object file
 bvh/bvh_builder_twolevel.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.o
 .PHONY : bvh/bvh_builder_twolevel.cpp.o
 
 bvh/bvh_builder_twolevel.i: bvh/bvh_builder_twolevel.cpp.i
@@ -496,7 +496,7 @@ bvh/bvh_builder_twolevel.i: bvh/bvh_builder_twolevel.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_builder_twolevel.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.i
 .PHONY : bvh/bvh_builder_twolevel.cpp.i
 
 bvh/bvh_builder_twolevel.s: bvh/bvh_builder_twolevel.cpp.s
@@ -504,7 +504,7 @@ bvh/bvh_builder_twolevel.s: bvh/bvh_builder_twolevel.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_builder_twolevel.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_builder_twolevel.cpp.s
 .PHONY : bvh/bvh_builder_twolevel.cpp.s
 
 bvh/bvh_collider.o: bvh/bvh_collider.cpp.o
@@ -512,7 +512,7 @@ bvh/bvh_collider.o: bvh/bvh_collider.cpp.o
 
 # target to build an object file
 bvh/bvh_collider.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.o
 .PHONY : bvh/bvh_collider.cpp.o
 
 bvh/bvh_collider.i: bvh/bvh_collider.cpp.i
@@ -520,7 +520,7 @@ bvh/bvh_collider.i: bvh/bvh_collider.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_collider.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.i
 .PHONY : bvh/bvh_collider.cpp.i
 
 bvh/bvh_collider.s: bvh/bvh_collider.cpp.s
@@ -528,7 +528,7 @@ bvh/bvh_collider.s: bvh/bvh_collider.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_collider.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_collider.cpp.s
 .PHONY : bvh/bvh_collider.cpp.s
 
 bvh/bvh_intersector1_bvh4.o: bvh/bvh_intersector1_bvh4.cpp.o
@@ -536,7 +536,7 @@ bvh/bvh_intersector1_bvh4.o: bvh/bvh_intersector1_bvh4.cpp.o
 
 # target to build an object file
 bvh/bvh_intersector1_bvh4.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.o
 .PHONY : bvh/bvh_intersector1_bvh4.cpp.o
 
 bvh/bvh_intersector1_bvh4.i: bvh/bvh_intersector1_bvh4.cpp.i
@@ -544,7 +544,7 @@ bvh/bvh_intersector1_bvh4.i: bvh/bvh_intersector1_bvh4.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_intersector1_bvh4.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.i
 .PHONY : bvh/bvh_intersector1_bvh4.cpp.i
 
 bvh/bvh_intersector1_bvh4.s: bvh/bvh_intersector1_bvh4.cpp.s
@@ -552,7 +552,7 @@ bvh/bvh_intersector1_bvh4.s: bvh/bvh_intersector1_bvh4.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_intersector1_bvh4.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector1_bvh4.cpp.s
 .PHONY : bvh/bvh_intersector1_bvh4.cpp.s
 
 bvh/bvh_intersector_hybrid4_bvh4.o: bvh/bvh_intersector_hybrid4_bvh4.cpp.o
@@ -560,7 +560,7 @@ bvh/bvh_intersector_hybrid4_bvh4.o: bvh/bvh_intersector_hybrid4_bvh4.cpp.o
 
 # target to build an object file
 bvh/bvh_intersector_hybrid4_bvh4.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.o
 .PHONY : bvh/bvh_intersector_hybrid4_bvh4.cpp.o
 
 bvh/bvh_intersector_hybrid4_bvh4.i: bvh/bvh_intersector_hybrid4_bvh4.cpp.i
@@ -568,7 +568,7 @@ bvh/bvh_intersector_hybrid4_bvh4.i: bvh/bvh_intersector_hybrid4_bvh4.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_intersector_hybrid4_bvh4.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.i
 .PHONY : bvh/bvh_intersector_hybrid4_bvh4.cpp.i
 
 bvh/bvh_intersector_hybrid4_bvh4.s: bvh/bvh_intersector_hybrid4_bvh4.cpp.s
@@ -576,7 +576,7 @@ bvh/bvh_intersector_hybrid4_bvh4.s: bvh/bvh_intersector_hybrid4_bvh4.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_intersector_hybrid4_bvh4.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_intersector_hybrid4_bvh4.cpp.s
 .PHONY : bvh/bvh_intersector_hybrid4_bvh4.cpp.s
 
 bvh/bvh_refit.o: bvh/bvh_refit.cpp.o
@@ -584,7 +584,7 @@ bvh/bvh_refit.o: bvh/bvh_refit.cpp.o
 
 # target to build an object file
 bvh/bvh_refit.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.o
 .PHONY : bvh/bvh_refit.cpp.o
 
 bvh/bvh_refit.i: bvh/bvh_refit.cpp.i
@@ -592,7 +592,7 @@ bvh/bvh_refit.i: bvh/bvh_refit.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_refit.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.i
 .PHONY : bvh/bvh_refit.cpp.i
 
 bvh/bvh_refit.s: bvh/bvh_refit.cpp.s
@@ -600,7 +600,7 @@ bvh/bvh_refit.s: bvh/bvh_refit.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_refit.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_refit.cpp.s
 .PHONY : bvh/bvh_refit.cpp.s
 
 bvh/bvh_rotate.o: bvh/bvh_rotate.cpp.o
@@ -608,7 +608,7 @@ bvh/bvh_rotate.o: bvh/bvh_rotate.cpp.o
 
 # target to build an object file
 bvh/bvh_rotate.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.o
 .PHONY : bvh/bvh_rotate.cpp.o
 
 bvh/bvh_rotate.i: bvh/bvh_rotate.cpp.i
@@ -616,7 +616,7 @@ bvh/bvh_rotate.i: bvh/bvh_rotate.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_rotate.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.i
 .PHONY : bvh/bvh_rotate.cpp.i
 
 bvh/bvh_rotate.s: bvh/bvh_rotate.cpp.s
@@ -624,7 +624,7 @@ bvh/bvh_rotate.s: bvh/bvh_rotate.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_rotate.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_rotate.cpp.s
 .PHONY : bvh/bvh_rotate.cpp.s
 
 bvh/bvh_statistics.o: bvh/bvh_statistics.cpp.o
@@ -632,7 +632,7 @@ bvh/bvh_statistics.o: bvh/bvh_statistics.cpp.o
 
 # target to build an object file
 bvh/bvh_statistics.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.o
 .PHONY : bvh/bvh_statistics.cpp.o
 
 bvh/bvh_statistics.i: bvh/bvh_statistics.cpp.i
@@ -640,7 +640,7 @@ bvh/bvh_statistics.i: bvh/bvh_statistics.cpp.i
 
 # target to preprocess a source file
 bvh/bvh_statistics.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.i
 .PHONY : bvh/bvh_statistics.cpp.i
 
 bvh/bvh_statistics.s: bvh/bvh_statistics.cpp.s
@@ -648,7 +648,7 @@ bvh/bvh_statistics.s: bvh/bvh_statistics.cpp.s
 
 # target to generate assembly for a file
 bvh/bvh_statistics.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/bvh/bvh_statistics.cpp.s
 .PHONY : bvh/bvh_statistics.cpp.s
 
 common/acceln.o: common/acceln.cpp.o
@@ -656,7 +656,7 @@ common/acceln.o: common/acceln.cpp.o
 
 # target to build an object file
 common/acceln.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.o
 .PHONY : common/acceln.cpp.o
 
 common/acceln.i: common/acceln.cpp.i
@@ -664,7 +664,7 @@ common/acceln.i: common/acceln.cpp.i
 
 # target to preprocess a source file
 common/acceln.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.i
 .PHONY : common/acceln.cpp.i
 
 common/acceln.s: common/acceln.cpp.s
@@ -672,7 +672,7 @@ common/acceln.s: common/acceln.cpp.s
 
 # target to generate assembly for a file
 common/acceln.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/acceln.cpp.s
 .PHONY : common/acceln.cpp.s
 
 common/accelset.o: common/accelset.cpp.o
@@ -680,7 +680,7 @@ common/accelset.o: common/accelset.cpp.o
 
 # target to build an object file
 common/accelset.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.o
 .PHONY : common/accelset.cpp.o
 
 common/accelset.i: common/accelset.cpp.i
@@ -688,7 +688,7 @@ common/accelset.i: common/accelset.cpp.i
 
 # target to preprocess a source file
 common/accelset.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.i
 .PHONY : common/accelset.cpp.i
 
 common/accelset.s: common/accelset.cpp.s
@@ -696,7 +696,7 @@ common/accelset.s: common/accelset.cpp.s
 
 # target to generate assembly for a file
 common/accelset.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/accelset.cpp.s
 .PHONY : common/accelset.cpp.s
 
 common/alloc.o: common/alloc.cpp.o
@@ -704,7 +704,7 @@ common/alloc.o: common/alloc.cpp.o
 
 # target to build an object file
 common/alloc.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.o
 .PHONY : common/alloc.cpp.o
 
 common/alloc.i: common/alloc.cpp.i
@@ -712,7 +712,7 @@ common/alloc.i: common/alloc.cpp.i
 
 # target to preprocess a source file
 common/alloc.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.i
 .PHONY : common/alloc.cpp.i
 
 common/alloc.s: common/alloc.cpp.s
@@ -720,7 +720,7 @@ common/alloc.s: common/alloc.cpp.s
 
 # target to generate assembly for a file
 common/alloc.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/alloc.cpp.s
 .PHONY : common/alloc.cpp.s
 
 common/device.o: common/device.cpp.o
@@ -728,7 +728,7 @@ common/device.o: common/device.cpp.o
 
 # target to build an object file
 common/device.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.o
 .PHONY : common/device.cpp.o
 
 common/device.i: common/device.cpp.i
@@ -736,7 +736,7 @@ common/device.i: common/device.cpp.i
 
 # target to preprocess a source file
 common/device.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.i
 .PHONY : common/device.cpp.i
 
 common/device.s: common/device.cpp.s
@@ -744,7 +744,7 @@ common/device.s: common/device.cpp.s
 
 # target to generate assembly for a file
 common/device.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/device.cpp.s
 .PHONY : common/device.cpp.s
 
 common/geometry.o: common/geometry.cpp.o
@@ -752,7 +752,7 @@ common/geometry.o: common/geometry.cpp.o
 
 # target to build an object file
 common/geometry.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.o
 .PHONY : common/geometry.cpp.o
 
 common/geometry.i: common/geometry.cpp.i
@@ -760,7 +760,7 @@ common/geometry.i: common/geometry.cpp.i
 
 # target to preprocess a source file
 common/geometry.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.i
 .PHONY : common/geometry.cpp.i
 
 common/geometry.s: common/geometry.cpp.s
@@ -768,7 +768,7 @@ common/geometry.s: common/geometry.cpp.s
 
 # target to generate assembly for a file
 common/geometry.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/geometry.cpp.s
 .PHONY : common/geometry.cpp.s
 
 common/motion_derivative.o: common/motion_derivative.cpp.o
@@ -776,7 +776,7 @@ common/motion_derivative.o: common/motion_derivative.cpp.o
 
 # target to build an object file
 common/motion_derivative.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.o
 .PHONY : common/motion_derivative.cpp.o
 
 common/motion_derivative.i: common/motion_derivative.cpp.i
@@ -784,7 +784,7 @@ common/motion_derivative.i: common/motion_derivative.cpp.i
 
 # target to preprocess a source file
 common/motion_derivative.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.i
 .PHONY : common/motion_derivative.cpp.i
 
 common/motion_derivative.s: common/motion_derivative.cpp.s
@@ -792,7 +792,7 @@ common/motion_derivative.s: common/motion_derivative.cpp.s
 
 # target to generate assembly for a file
 common/motion_derivative.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/motion_derivative.cpp.s
 .PHONY : common/motion_derivative.cpp.s
 
 common/rtcore.o: common/rtcore.cpp.o
@@ -800,7 +800,7 @@ common/rtcore.o: common/rtcore.cpp.o
 
 # target to build an object file
 common/rtcore.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.o
 .PHONY : common/rtcore.cpp.o
 
 common/rtcore.i: common/rtcore.cpp.i
@@ -808,7 +808,7 @@ common/rtcore.i: common/rtcore.cpp.i
 
 # target to preprocess a source file
 common/rtcore.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.i
 .PHONY : common/rtcore.cpp.i
 
 common/rtcore.s: common/rtcore.cpp.s
@@ -816,7 +816,7 @@ common/rtcore.s: common/rtcore.cpp.s
 
 # target to generate assembly for a file
 common/rtcore.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore.cpp.s
 .PHONY : common/rtcore.cpp.s
 
 common/rtcore_builder.o: common/rtcore_builder.cpp.o
@@ -824,7 +824,7 @@ common/rtcore_builder.o: common/rtcore_builder.cpp.o
 
 # target to build an object file
 common/rtcore_builder.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.o
 .PHONY : common/rtcore_builder.cpp.o
 
 common/rtcore_builder.i: common/rtcore_builder.cpp.i
@@ -832,7 +832,7 @@ common/rtcore_builder.i: common/rtcore_builder.cpp.i
 
 # target to preprocess a source file
 common/rtcore_builder.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.i
 .PHONY : common/rtcore_builder.cpp.i
 
 common/rtcore_builder.s: common/rtcore_builder.cpp.s
@@ -840,7 +840,7 @@ common/rtcore_builder.s: common/rtcore_builder.cpp.s
 
 # target to generate assembly for a file
 common/rtcore_builder.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/rtcore_builder.cpp.s
 .PHONY : common/rtcore_builder.cpp.s
 
 common/scene.o: common/scene.cpp.o
@@ -848,7 +848,7 @@ common/scene.o: common/scene.cpp.o
 
 # target to build an object file
 common/scene.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.o
 .PHONY : common/scene.cpp.o
 
 common/scene.i: common/scene.cpp.i
@@ -856,7 +856,7 @@ common/scene.i: common/scene.cpp.i
 
 # target to preprocess a source file
 common/scene.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.i
 .PHONY : common/scene.cpp.i
 
 common/scene.s: common/scene.cpp.s
@@ -864,7 +864,7 @@ common/scene.s: common/scene.cpp.s
 
 # target to generate assembly for a file
 common/scene.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene.cpp.s
 .PHONY : common/scene.cpp.s
 
 common/scene_curves.o: common/scene_curves.cpp.o
@@ -872,7 +872,7 @@ common/scene_curves.o: common/scene_curves.cpp.o
 
 # target to build an object file
 common/scene_curves.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.o
 .PHONY : common/scene_curves.cpp.o
 
 common/scene_curves.i: common/scene_curves.cpp.i
@@ -880,7 +880,7 @@ common/scene_curves.i: common/scene_curves.cpp.i
 
 # target to preprocess a source file
 common/scene_curves.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.i
 .PHONY : common/scene_curves.cpp.i
 
 common/scene_curves.s: common/scene_curves.cpp.s
@@ -888,7 +888,7 @@ common/scene_curves.s: common/scene_curves.cpp.s
 
 # target to generate assembly for a file
 common/scene_curves.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_curves.cpp.s
 .PHONY : common/scene_curves.cpp.s
 
 common/scene_grid_mesh.o: common/scene_grid_mesh.cpp.o
@@ -896,7 +896,7 @@ common/scene_grid_mesh.o: common/scene_grid_mesh.cpp.o
 
 # target to build an object file
 common/scene_grid_mesh.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.o
 .PHONY : common/scene_grid_mesh.cpp.o
 
 common/scene_grid_mesh.i: common/scene_grid_mesh.cpp.i
@@ -904,7 +904,7 @@ common/scene_grid_mesh.i: common/scene_grid_mesh.cpp.i
 
 # target to preprocess a source file
 common/scene_grid_mesh.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.i
 .PHONY : common/scene_grid_mesh.cpp.i
 
 common/scene_grid_mesh.s: common/scene_grid_mesh.cpp.s
@@ -912,7 +912,7 @@ common/scene_grid_mesh.s: common/scene_grid_mesh.cpp.s
 
 # target to generate assembly for a file
 common/scene_grid_mesh.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_grid_mesh.cpp.s
 .PHONY : common/scene_grid_mesh.cpp.s
 
 common/scene_instance.o: common/scene_instance.cpp.o
@@ -920,7 +920,7 @@ common/scene_instance.o: common/scene_instance.cpp.o
 
 # target to build an object file
 common/scene_instance.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.o
 .PHONY : common/scene_instance.cpp.o
 
 common/scene_instance.i: common/scene_instance.cpp.i
@@ -928,7 +928,7 @@ common/scene_instance.i: common/scene_instance.cpp.i
 
 # target to preprocess a source file
 common/scene_instance.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.i
 .PHONY : common/scene_instance.cpp.i
 
 common/scene_instance.s: common/scene_instance.cpp.s
@@ -936,7 +936,7 @@ common/scene_instance.s: common/scene_instance.cpp.s
 
 # target to generate assembly for a file
 common/scene_instance.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance.cpp.s
 .PHONY : common/scene_instance.cpp.s
 
 common/scene_instance_array.o: common/scene_instance_array.cpp.o
@@ -944,7 +944,7 @@ common/scene_instance_array.o: common/scene_instance_array.cpp.o
 
 # target to build an object file
 common/scene_instance_array.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.o
 .PHONY : common/scene_instance_array.cpp.o
 
 common/scene_instance_array.i: common/scene_instance_array.cpp.i
@@ -952,7 +952,7 @@ common/scene_instance_array.i: common/scene_instance_array.cpp.i
 
 # target to preprocess a source file
 common/scene_instance_array.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.i
 .PHONY : common/scene_instance_array.cpp.i
 
 common/scene_instance_array.s: common/scene_instance_array.cpp.s
@@ -960,7 +960,7 @@ common/scene_instance_array.s: common/scene_instance_array.cpp.s
 
 # target to generate assembly for a file
 common/scene_instance_array.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_instance_array.cpp.s
 .PHONY : common/scene_instance_array.cpp.s
 
 common/scene_line_segments.o: common/scene_line_segments.cpp.o
@@ -968,7 +968,7 @@ common/scene_line_segments.o: common/scene_line_segments.cpp.o
 
 # target to build an object file
 common/scene_line_segments.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.o
 .PHONY : common/scene_line_segments.cpp.o
 
 common/scene_line_segments.i: common/scene_line_segments.cpp.i
@@ -976,7 +976,7 @@ common/scene_line_segments.i: common/scene_line_segments.cpp.i
 
 # target to preprocess a source file
 common/scene_line_segments.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.i
 .PHONY : common/scene_line_segments.cpp.i
 
 common/scene_line_segments.s: common/scene_line_segments.cpp.s
@@ -984,7 +984,7 @@ common/scene_line_segments.s: common/scene_line_segments.cpp.s
 
 # target to generate assembly for a file
 common/scene_line_segments.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_line_segments.cpp.s
 .PHONY : common/scene_line_segments.cpp.s
 
 common/scene_points.o: common/scene_points.cpp.o
@@ -992,7 +992,7 @@ common/scene_points.o: common/scene_points.cpp.o
 
 # target to build an object file
 common/scene_points.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.o
 .PHONY : common/scene_points.cpp.o
 
 common/scene_points.i: common/scene_points.cpp.i
@@ -1000,7 +1000,7 @@ common/scene_points.i: common/scene_points.cpp.i
 
 # target to preprocess a source file
 common/scene_points.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.i
 .PHONY : common/scene_points.cpp.i
 
 common/scene_points.s: common/scene_points.cpp.s
@@ -1008,7 +1008,7 @@ common/scene_points.s: common/scene_points.cpp.s
 
 # target to generate assembly for a file
 common/scene_points.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_points.cpp.s
 .PHONY : common/scene_points.cpp.s
 
 common/scene_quad_mesh.o: common/scene_quad_mesh.cpp.o
@@ -1016,7 +1016,7 @@ common/scene_quad_mesh.o: common/scene_quad_mesh.cpp.o
 
 # target to build an object file
 common/scene_quad_mesh.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.o
 .PHONY : common/scene_quad_mesh.cpp.o
 
 common/scene_quad_mesh.i: common/scene_quad_mesh.cpp.i
@@ -1024,7 +1024,7 @@ common/scene_quad_mesh.i: common/scene_quad_mesh.cpp.i
 
 # target to preprocess a source file
 common/scene_quad_mesh.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.i
 .PHONY : common/scene_quad_mesh.cpp.i
 
 common/scene_quad_mesh.s: common/scene_quad_mesh.cpp.s
@@ -1032,7 +1032,7 @@ common/scene_quad_mesh.s: common/scene_quad_mesh.cpp.s
 
 # target to generate assembly for a file
 common/scene_quad_mesh.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_quad_mesh.cpp.s
 .PHONY : common/scene_quad_mesh.cpp.s
 
 common/scene_subdiv_mesh.o: common/scene_subdiv_mesh.cpp.o
@@ -1040,7 +1040,7 @@ common/scene_subdiv_mesh.o: common/scene_subdiv_mesh.cpp.o
 
 # target to build an object file
 common/scene_subdiv_mesh.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.o
 .PHONY : common/scene_subdiv_mesh.cpp.o
 
 common/scene_subdiv_mesh.i: common/scene_subdiv_mesh.cpp.i
@@ -1048,7 +1048,7 @@ common/scene_subdiv_mesh.i: common/scene_subdiv_mesh.cpp.i
 
 # target to preprocess a source file
 common/scene_subdiv_mesh.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.i
 .PHONY : common/scene_subdiv_mesh.cpp.i
 
 common/scene_subdiv_mesh.s: common/scene_subdiv_mesh.cpp.s
@@ -1056,7 +1056,7 @@ common/scene_subdiv_mesh.s: common/scene_subdiv_mesh.cpp.s
 
 # target to generate assembly for a file
 common/scene_subdiv_mesh.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_subdiv_mesh.cpp.s
 .PHONY : common/scene_subdiv_mesh.cpp.s
 
 common/scene_triangle_mesh.o: common/scene_triangle_mesh.cpp.o
@@ -1064,7 +1064,7 @@ common/scene_triangle_mesh.o: common/scene_triangle_mesh.cpp.o
 
 # target to build an object file
 common/scene_triangle_mesh.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.o
 .PHONY : common/scene_triangle_mesh.cpp.o
 
 common/scene_triangle_mesh.i: common/scene_triangle_mesh.cpp.i
@@ -1072,7 +1072,7 @@ common/scene_triangle_mesh.i: common/scene_triangle_mesh.cpp.i
 
 # target to preprocess a source file
 common/scene_triangle_mesh.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.i
 .PHONY : common/scene_triangle_mesh.cpp.i
 
 common/scene_triangle_mesh.s: common/scene_triangle_mesh.cpp.s
@@ -1080,7 +1080,7 @@ common/scene_triangle_mesh.s: common/scene_triangle_mesh.cpp.s
 
 # target to generate assembly for a file
 common/scene_triangle_mesh.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_triangle_mesh.cpp.s
 .PHONY : common/scene_triangle_mesh.cpp.s
 
 common/scene_user_geometry.o: common/scene_user_geometry.cpp.o
@@ -1088,7 +1088,7 @@ common/scene_user_geometry.o: common/scene_user_geometry.cpp.o
 
 # target to build an object file
 common/scene_user_geometry.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.o
 .PHONY : common/scene_user_geometry.cpp.o
 
 common/scene_user_geometry.i: common/scene_user_geometry.cpp.i
@@ -1096,7 +1096,7 @@ common/scene_user_geometry.i: common/scene_user_geometry.cpp.i
 
 # target to preprocess a source file
 common/scene_user_geometry.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.i
 .PHONY : common/scene_user_geometry.cpp.i
 
 common/scene_user_geometry.s: common/scene_user_geometry.cpp.s
@@ -1104,7 +1104,7 @@ common/scene_user_geometry.s: common/scene_user_geometry.cpp.s
 
 # target to generate assembly for a file
 common/scene_user_geometry.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_user_geometry.cpp.s
 .PHONY : common/scene_user_geometry.cpp.s
 
 common/scene_verify.o: common/scene_verify.cpp.o
@@ -1112,7 +1112,7 @@ common/scene_verify.o: common/scene_verify.cpp.o
 
 # target to build an object file
 common/scene_verify.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.o
 .PHONY : common/scene_verify.cpp.o
 
 common/scene_verify.i: common/scene_verify.cpp.i
@@ -1120,7 +1120,7 @@ common/scene_verify.i: common/scene_verify.cpp.i
 
 # target to preprocess a source file
 common/scene_verify.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.i
 .PHONY : common/scene_verify.cpp.i
 
 common/scene_verify.s: common/scene_verify.cpp.s
@@ -1128,7 +1128,7 @@ common/scene_verify.s: common/scene_verify.cpp.s
 
 # target to generate assembly for a file
 common/scene_verify.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/scene_verify.cpp.s
 .PHONY : common/scene_verify.cpp.s
 
 common/stat.o: common/stat.cpp.o
@@ -1136,7 +1136,7 @@ common/stat.o: common/stat.cpp.o
 
 # target to build an object file
 common/stat.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.o
 .PHONY : common/stat.cpp.o
 
 common/stat.i: common/stat.cpp.i
@@ -1144,7 +1144,7 @@ common/stat.i: common/stat.cpp.i
 
 # target to preprocess a source file
 common/stat.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.i
 .PHONY : common/stat.cpp.i
 
 common/stat.s: common/stat.cpp.s
@@ -1152,7 +1152,7 @@ common/stat.s: common/stat.cpp.s
 
 # target to generate assembly for a file
 common/stat.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/stat.cpp.s
 .PHONY : common/stat.cpp.s
 
 common/state.o: common/state.cpp.o
@@ -1160,7 +1160,7 @@ common/state.o: common/state.cpp.o
 
 # target to build an object file
 common/state.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.o
 .PHONY : common/state.cpp.o
 
 common/state.i: common/state.cpp.i
@@ -1168,7 +1168,7 @@ common/state.i: common/state.cpp.i
 
 # target to preprocess a source file
 common/state.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.i
 .PHONY : common/state.cpp.i
 
 common/state.s: common/state.cpp.s
@@ -1176,7 +1176,7 @@ common/state.s: common/state.cpp.s
 
 # target to generate assembly for a file
 common/state.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/common/state.cpp.s
 .PHONY : common/state.cpp.s
 
 geometry/curve_intersector_virtual_4i.o: geometry/curve_intersector_virtual_4i.cpp.o
@@ -1184,7 +1184,7 @@ geometry/curve_intersector_virtual_4i.o: geometry/curve_intersector_virtual_4i.c
 
 # target to build an object file
 geometry/curve_intersector_virtual_4i.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.o
 .PHONY : geometry/curve_intersector_virtual_4i.cpp.o
 
 geometry/curve_intersector_virtual_4i.i: geometry/curve_intersector_virtual_4i.cpp.i
@@ -1192,7 +1192,7 @@ geometry/curve_intersector_virtual_4i.i: geometry/curve_intersector_virtual_4i.c
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_4i.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.i
 .PHONY : geometry/curve_intersector_virtual_4i.cpp.i
 
 geometry/curve_intersector_virtual_4i.s: geometry/curve_intersector_virtual_4i.cpp.s
@@ -1200,7 +1200,7 @@ geometry/curve_intersector_virtual_4i.s: geometry/curve_intersector_virtual_4i.c
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_4i.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i.cpp.s
 .PHONY : geometry/curve_intersector_virtual_4i.cpp.s
 
 geometry/curve_intersector_virtual_4i_mb.o: geometry/curve_intersector_virtual_4i_mb.cpp.o
@@ -1208,7 +1208,7 @@ geometry/curve_intersector_virtual_4i_mb.o: geometry/curve_intersector_virtual_4
 
 # target to build an object file
 geometry/curve_intersector_virtual_4i_mb.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.o
 .PHONY : geometry/curve_intersector_virtual_4i_mb.cpp.o
 
 geometry/curve_intersector_virtual_4i_mb.i: geometry/curve_intersector_virtual_4i_mb.cpp.i
@@ -1216,7 +1216,7 @@ geometry/curve_intersector_virtual_4i_mb.i: geometry/curve_intersector_virtual_4
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_4i_mb.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.i
 .PHONY : geometry/curve_intersector_virtual_4i_mb.cpp.i
 
 geometry/curve_intersector_virtual_4i_mb.s: geometry/curve_intersector_virtual_4i_mb.cpp.s
@@ -1224,7 +1224,7 @@ geometry/curve_intersector_virtual_4i_mb.s: geometry/curve_intersector_virtual_4
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_4i_mb.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4i_mb.cpp.s
 .PHONY : geometry/curve_intersector_virtual_4i_mb.cpp.s
 
 geometry/curve_intersector_virtual_4v.o: geometry/curve_intersector_virtual_4v.cpp.o
@@ -1232,7 +1232,7 @@ geometry/curve_intersector_virtual_4v.o: geometry/curve_intersector_virtual_4v.c
 
 # target to build an object file
 geometry/curve_intersector_virtual_4v.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.o
 .PHONY : geometry/curve_intersector_virtual_4v.cpp.o
 
 geometry/curve_intersector_virtual_4v.i: geometry/curve_intersector_virtual_4v.cpp.i
@@ -1240,7 +1240,7 @@ geometry/curve_intersector_virtual_4v.i: geometry/curve_intersector_virtual_4v.c
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_4v.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.i
 .PHONY : geometry/curve_intersector_virtual_4v.cpp.i
 
 geometry/curve_intersector_virtual_4v.s: geometry/curve_intersector_virtual_4v.cpp.s
@@ -1248,7 +1248,7 @@ geometry/curve_intersector_virtual_4v.s: geometry/curve_intersector_virtual_4v.c
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_4v.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_4v.cpp.s
 .PHONY : geometry/curve_intersector_virtual_4v.cpp.s
 
 geometry/curve_intersector_virtual_8i.o: geometry/curve_intersector_virtual_8i.cpp.o
@@ -1256,7 +1256,7 @@ geometry/curve_intersector_virtual_8i.o: geometry/curve_intersector_virtual_8i.c
 
 # target to build an object file
 geometry/curve_intersector_virtual_8i.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.o
 .PHONY : geometry/curve_intersector_virtual_8i.cpp.o
 
 geometry/curve_intersector_virtual_8i.i: geometry/curve_intersector_virtual_8i.cpp.i
@@ -1264,7 +1264,7 @@ geometry/curve_intersector_virtual_8i.i: geometry/curve_intersector_virtual_8i.c
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_8i.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.i
 .PHONY : geometry/curve_intersector_virtual_8i.cpp.i
 
 geometry/curve_intersector_virtual_8i.s: geometry/curve_intersector_virtual_8i.cpp.s
@@ -1272,7 +1272,7 @@ geometry/curve_intersector_virtual_8i.s: geometry/curve_intersector_virtual_8i.c
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_8i.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i.cpp.s
 .PHONY : geometry/curve_intersector_virtual_8i.cpp.s
 
 geometry/curve_intersector_virtual_8i_mb.o: geometry/curve_intersector_virtual_8i_mb.cpp.o
@@ -1280,7 +1280,7 @@ geometry/curve_intersector_virtual_8i_mb.o: geometry/curve_intersector_virtual_8
 
 # target to build an object file
 geometry/curve_intersector_virtual_8i_mb.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.o
 .PHONY : geometry/curve_intersector_virtual_8i_mb.cpp.o
 
 geometry/curve_intersector_virtual_8i_mb.i: geometry/curve_intersector_virtual_8i_mb.cpp.i
@@ -1288,7 +1288,7 @@ geometry/curve_intersector_virtual_8i_mb.i: geometry/curve_intersector_virtual_8
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_8i_mb.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.i
 .PHONY : geometry/curve_intersector_virtual_8i_mb.cpp.i
 
 geometry/curve_intersector_virtual_8i_mb.s: geometry/curve_intersector_virtual_8i_mb.cpp.s
@@ -1296,7 +1296,7 @@ geometry/curve_intersector_virtual_8i_mb.s: geometry/curve_intersector_virtual_8
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_8i_mb.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8i_mb.cpp.s
 .PHONY : geometry/curve_intersector_virtual_8i_mb.cpp.s
 
 geometry/curve_intersector_virtual_8v.o: geometry/curve_intersector_virtual_8v.cpp.o
@@ -1304,7 +1304,7 @@ geometry/curve_intersector_virtual_8v.o: geometry/curve_intersector_virtual_8v.c
 
 # target to build an object file
 geometry/curve_intersector_virtual_8v.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.o
 .PHONY : geometry/curve_intersector_virtual_8v.cpp.o
 
 geometry/curve_intersector_virtual_8v.i: geometry/curve_intersector_virtual_8v.cpp.i
@@ -1312,7 +1312,7 @@ geometry/curve_intersector_virtual_8v.i: geometry/curve_intersector_virtual_8v.c
 
 # target to preprocess a source file
 geometry/curve_intersector_virtual_8v.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.i
 .PHONY : geometry/curve_intersector_virtual_8v.cpp.i
 
 geometry/curve_intersector_virtual_8v.s: geometry/curve_intersector_virtual_8v.cpp.s
@@ -1320,7 +1320,7 @@ geometry/curve_intersector_virtual_8v.s: geometry/curve_intersector_virtual_8v.c
 
 # target to generate assembly for a file
 geometry/curve_intersector_virtual_8v.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/curve_intersector_virtual_8v.cpp.s
 .PHONY : geometry/curve_intersector_virtual_8v.cpp.s
 
 geometry/grid_soa.o: geometry/grid_soa.cpp.o
@@ -1328,7 +1328,7 @@ geometry/grid_soa.o: geometry/grid_soa.cpp.o
 
 # target to build an object file
 geometry/grid_soa.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.o
 .PHONY : geometry/grid_soa.cpp.o
 
 geometry/grid_soa.i: geometry/grid_soa.cpp.i
@@ -1336,7 +1336,7 @@ geometry/grid_soa.i: geometry/grid_soa.cpp.i
 
 # target to preprocess a source file
 geometry/grid_soa.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.i
 .PHONY : geometry/grid_soa.cpp.i
 
 geometry/grid_soa.s: geometry/grid_soa.cpp.s
@@ -1344,7 +1344,7 @@ geometry/grid_soa.s: geometry/grid_soa.cpp.s
 
 # target to generate assembly for a file
 geometry/grid_soa.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/grid_soa.cpp.s
 .PHONY : geometry/grid_soa.cpp.s
 
 geometry/instance_array_intersector.o: geometry/instance_array_intersector.cpp.o
@@ -1352,7 +1352,7 @@ geometry/instance_array_intersector.o: geometry/instance_array_intersector.cpp.o
 
 # target to build an object file
 geometry/instance_array_intersector.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.o
 .PHONY : geometry/instance_array_intersector.cpp.o
 
 geometry/instance_array_intersector.i: geometry/instance_array_intersector.cpp.i
@@ -1360,7 +1360,7 @@ geometry/instance_array_intersector.i: geometry/instance_array_intersector.cpp.i
 
 # target to preprocess a source file
 geometry/instance_array_intersector.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.i
 .PHONY : geometry/instance_array_intersector.cpp.i
 
 geometry/instance_array_intersector.s: geometry/instance_array_intersector.cpp.s
@@ -1368,7 +1368,7 @@ geometry/instance_array_intersector.s: geometry/instance_array_intersector.cpp.s
 
 # target to generate assembly for a file
 geometry/instance_array_intersector.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_array_intersector.cpp.s
 .PHONY : geometry/instance_array_intersector.cpp.s
 
 geometry/instance_intersector.o: geometry/instance_intersector.cpp.o
@@ -1376,7 +1376,7 @@ geometry/instance_intersector.o: geometry/instance_intersector.cpp.o
 
 # target to build an object file
 geometry/instance_intersector.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.o
 .PHONY : geometry/instance_intersector.cpp.o
 
 geometry/instance_intersector.i: geometry/instance_intersector.cpp.i
@@ -1384,7 +1384,7 @@ geometry/instance_intersector.i: geometry/instance_intersector.cpp.i
 
 # target to preprocess a source file
 geometry/instance_intersector.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.i
 .PHONY : geometry/instance_intersector.cpp.i
 
 geometry/instance_intersector.s: geometry/instance_intersector.cpp.s
@@ -1392,7 +1392,7 @@ geometry/instance_intersector.s: geometry/instance_intersector.cpp.s
 
 # target to generate assembly for a file
 geometry/instance_intersector.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/instance_intersector.cpp.s
 .PHONY : geometry/instance_intersector.cpp.s
 
 geometry/primitive4.o: geometry/primitive4.cpp.o
@@ -1400,7 +1400,7 @@ geometry/primitive4.o: geometry/primitive4.cpp.o
 
 # target to build an object file
 geometry/primitive4.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.o
 .PHONY : geometry/primitive4.cpp.o
 
 geometry/primitive4.i: geometry/primitive4.cpp.i
@@ -1408,7 +1408,7 @@ geometry/primitive4.i: geometry/primitive4.cpp.i
 
 # target to preprocess a source file
 geometry/primitive4.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.i
 .PHONY : geometry/primitive4.cpp.i
 
 geometry/primitive4.s: geometry/primitive4.cpp.s
@@ -1416,7 +1416,7 @@ geometry/primitive4.s: geometry/primitive4.cpp.s
 
 # target to generate assembly for a file
 geometry/primitive4.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/geometry/primitive4.cpp.s
 .PHONY : geometry/primitive4.cpp.s
 
 subdiv/bezier_curve.o: subdiv/bezier_curve.cpp.o
@@ -1424,7 +1424,7 @@ subdiv/bezier_curve.o: subdiv/bezier_curve.cpp.o
 
 # target to build an object file
 subdiv/bezier_curve.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.o
 .PHONY : subdiv/bezier_curve.cpp.o
 
 subdiv/bezier_curve.i: subdiv/bezier_curve.cpp.i
@@ -1432,7 +1432,7 @@ subdiv/bezier_curve.i: subdiv/bezier_curve.cpp.i
 
 # target to preprocess a source file
 subdiv/bezier_curve.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.i
 .PHONY : subdiv/bezier_curve.cpp.i
 
 subdiv/bezier_curve.s: subdiv/bezier_curve.cpp.s
@@ -1440,7 +1440,7 @@ subdiv/bezier_curve.s: subdiv/bezier_curve.cpp.s
 
 # target to generate assembly for a file
 subdiv/bezier_curve.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bezier_curve.cpp.s
 .PHONY : subdiv/bezier_curve.cpp.s
 
 subdiv/bspline_curve.o: subdiv/bspline_curve.cpp.o
@@ -1448,7 +1448,7 @@ subdiv/bspline_curve.o: subdiv/bspline_curve.cpp.o
 
 # target to build an object file
 subdiv/bspline_curve.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.o
 .PHONY : subdiv/bspline_curve.cpp.o
 
 subdiv/bspline_curve.i: subdiv/bspline_curve.cpp.i
@@ -1456,7 +1456,7 @@ subdiv/bspline_curve.i: subdiv/bspline_curve.cpp.i
 
 # target to preprocess a source file
 subdiv/bspline_curve.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.i
 .PHONY : subdiv/bspline_curve.cpp.i
 
 subdiv/bspline_curve.s: subdiv/bspline_curve.cpp.s
@@ -1464,7 +1464,7 @@ subdiv/bspline_curve.s: subdiv/bspline_curve.cpp.s
 
 # target to generate assembly for a file
 subdiv/bspline_curve.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/bspline_curve.cpp.s
 .PHONY : subdiv/bspline_curve.cpp.s
 
 subdiv/catmullclark_coefficients.o: subdiv/catmullclark_coefficients.cpp.o
@@ -1472,7 +1472,7 @@ subdiv/catmullclark_coefficients.o: subdiv/catmullclark_coefficients.cpp.o
 
 # target to build an object file
 subdiv/catmullclark_coefficients.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.o
 .PHONY : subdiv/catmullclark_coefficients.cpp.o
 
 subdiv/catmullclark_coefficients.i: subdiv/catmullclark_coefficients.cpp.i
@@ -1480,7 +1480,7 @@ subdiv/catmullclark_coefficients.i: subdiv/catmullclark_coefficients.cpp.i
 
 # target to preprocess a source file
 subdiv/catmullclark_coefficients.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.i
 .PHONY : subdiv/catmullclark_coefficients.cpp.i
 
 subdiv/catmullclark_coefficients.s: subdiv/catmullclark_coefficients.cpp.s
@@ -1488,7 +1488,7 @@ subdiv/catmullclark_coefficients.s: subdiv/catmullclark_coefficients.cpp.s
 
 # target to generate assembly for a file
 subdiv/catmullclark_coefficients.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullclark_coefficients.cpp.s
 .PHONY : subdiv/catmullclark_coefficients.cpp.s
 
 subdiv/catmullrom_curve.o: subdiv/catmullrom_curve.cpp.o
@@ -1496,7 +1496,7 @@ subdiv/catmullrom_curve.o: subdiv/catmullrom_curve.cpp.o
 
 # target to build an object file
 subdiv/catmullrom_curve.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.o
 .PHONY : subdiv/catmullrom_curve.cpp.o
 
 subdiv/catmullrom_curve.i: subdiv/catmullrom_curve.cpp.i
@@ -1504,7 +1504,7 @@ subdiv/catmullrom_curve.i: subdiv/catmullrom_curve.cpp.i
 
 # target to preprocess a source file
 subdiv/catmullrom_curve.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.i
 .PHONY : subdiv/catmullrom_curve.cpp.i
 
 subdiv/catmullrom_curve.s: subdiv/catmullrom_curve.cpp.s
@@ -1512,7 +1512,7 @@ subdiv/catmullrom_curve.s: subdiv/catmullrom_curve.cpp.s
 
 # target to generate assembly for a file
 subdiv/catmullrom_curve.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/catmullrom_curve.cpp.s
 .PHONY : subdiv/catmullrom_curve.cpp.s
 
 subdiv/subdivpatch1base.o: subdiv/subdivpatch1base.cpp.o
@@ -1520,7 +1520,7 @@ subdiv/subdivpatch1base.o: subdiv/subdivpatch1base.cpp.o
 
 # target to build an object file
 subdiv/subdivpatch1base.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.o
 .PHONY : subdiv/subdivpatch1base.cpp.o
 
 subdiv/subdivpatch1base.i: subdiv/subdivpatch1base.cpp.i
@@ -1528,7 +1528,7 @@ subdiv/subdivpatch1base.i: subdiv/subdivpatch1base.cpp.i
 
 # target to preprocess a source file
 subdiv/subdivpatch1base.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.i
 .PHONY : subdiv/subdivpatch1base.cpp.i
 
 subdiv/subdivpatch1base.s: subdiv/subdivpatch1base.cpp.s
@@ -1536,7 +1536,7 @@ subdiv/subdivpatch1base.s: subdiv/subdivpatch1base.cpp.s
 
 # target to generate assembly for a file
 subdiv/subdivpatch1base.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base.cpp.s
 .PHONY : subdiv/subdivpatch1base.cpp.s
 
 subdiv/subdivpatch1base_eval.o: subdiv/subdivpatch1base_eval.cpp.o
@@ -1544,7 +1544,7 @@ subdiv/subdivpatch1base_eval.o: subdiv/subdivpatch1base_eval.cpp.o
 
 # target to build an object file
 subdiv/subdivpatch1base_eval.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.o
 .PHONY : subdiv/subdivpatch1base_eval.cpp.o
 
 subdiv/subdivpatch1base_eval.i: subdiv/subdivpatch1base_eval.cpp.i
@@ -1552,7 +1552,7 @@ subdiv/subdivpatch1base_eval.i: subdiv/subdivpatch1base_eval.cpp.i
 
 # target to preprocess a source file
 subdiv/subdivpatch1base_eval.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.i
 .PHONY : subdiv/subdivpatch1base_eval.cpp.i
 
 subdiv/subdivpatch1base_eval.s: subdiv/subdivpatch1base_eval.cpp.s
@@ -1560,7 +1560,7 @@ subdiv/subdivpatch1base_eval.s: subdiv/subdivpatch1base_eval.cpp.s
 
 # target to generate assembly for a file
 subdiv/subdivpatch1base_eval.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/subdivpatch1base_eval.cpp.s
 .PHONY : subdiv/subdivpatch1base_eval.cpp.s
 
 subdiv/tessellation_cache.o: subdiv/tessellation_cache.cpp.o
@@ -1568,7 +1568,7 @@ subdiv/tessellation_cache.o: subdiv/tessellation_cache.cpp.o
 
 # target to build an object file
 subdiv/tessellation_cache.cpp.o:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.o
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.o
 .PHONY : subdiv/tessellation_cache.cpp.o
 
 subdiv/tessellation_cache.i: subdiv/tessellation_cache.cpp.i
@@ -1576,7 +1576,7 @@ subdiv/tessellation_cache.i: subdiv/tessellation_cache.cpp.i
 
 # target to preprocess a source file
 subdiv/tessellation_cache.cpp.i:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.i
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.i
 .PHONY : subdiv/tessellation_cache.cpp.i
 
 subdiv/tessellation_cache.s: subdiv/tessellation_cache.cpp.s
@@ -1584,7 +1584,7 @@ subdiv/tessellation_cache.s: subdiv/tessellation_cache.cpp.s
 
 # target to generate assembly for a file
 subdiv/tessellation_cache.cpp.s:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.s
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(MAKE) $(MAKESILENT) -f _deps/embree-build/kernels/CMakeFiles/embree.dir/build.make _deps/embree-build/kernels/CMakeFiles/embree.dir/subdiv/tessellation_cache.cpp.s
 .PHONY : subdiv/tessellation_cache.cpp.s
 
 # Help Target
@@ -1787,6 +1787,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/daiki/Documents/Stanford/Research/SimpleModal/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/daiki/Documents/Stanford/Research/Plink/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

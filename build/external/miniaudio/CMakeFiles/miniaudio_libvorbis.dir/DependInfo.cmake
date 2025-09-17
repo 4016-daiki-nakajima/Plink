@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/daiki/Documents/Stanford/Research/SimpleModal/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.c" "external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o" "gcc" "external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o.d"
+  "/Users/daiki/Documents/Stanford/Research/Plink/external/miniaudio/extras/decoders/libvorbis/miniaudio_libvorbis.c" "external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o" "gcc" "external/miniaudio/CMakeFiles/miniaudio_libvorbis.dir/extras/decoders/libvorbis/miniaudio_libvorbis.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

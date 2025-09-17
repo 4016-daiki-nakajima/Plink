@@ -1,7 +1,7 @@
 CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o: \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui_demo.cpp \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imgui.h \
-  /Users/daiki/Documents/Stanford/Research/SimpleModal/build/_deps/imgui-src/imconfig.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui_demo.cpp \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imgui.h \
+  /Users/daiki/Documents/Stanford/Research/Plink/build/_deps/imgui-src/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site \

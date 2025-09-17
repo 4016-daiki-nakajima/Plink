@@ -2,7 +2,7 @@
 
 #include <vector>
 #include <cmath>
-#include "utils.h"
+#include "Utils/utils.h"
 namespace SimpleModal
 {
   class ModaData
