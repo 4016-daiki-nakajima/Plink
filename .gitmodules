@@ -1,0 +1,11 @@
+[submodule "external/miniaudio"]
+	path = external/miniaudio
+	url = https://github.com/mackron/miniaudio.git
+
+[submodule "external/spectra"]
+	path = external/spectra
+	url = https://github.com/yixuan/spectra.git
+
+[submodule "external/libigl"]
+	path = external/libigl
+	url = ghttps://github.com/libigl/libigl.git
